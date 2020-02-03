@@ -35,6 +35,7 @@ The text from this site was obtained from
 
 
 Media: The Photos used in this site were obtained from
+Class Image Photo by bruce mars from Pexels.
 https://pxhere.com/
 https://unsplash.com/
 https://www.pexels.com/
