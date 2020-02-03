@@ -43,6 +43,7 @@ Photo by Alora Griffiths on Unsplash
 
 https://www.pexels.com/
 "Class" Image Photo by bruce mars from Pexels.
+Video Clips by unnamed from pexels.
 
 https://pixabay.com/
 "trainer" Image by ID 5132824 Pixabay
