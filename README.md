@@ -35,9 +35,21 @@ The text from this site was obtained from
 
 
 Media: The Photos used in this site were obtained from
+
 https://pxhere.com/
 https://unsplash.com/
+"GYM" Image Photo by Danielle Cerullo on Unsplash
+Photo by Alora Griffiths on Unsplash
+
 https://www.pexels.com/
+"Class" Image Photo by bruce mars from Pexels.
+
+https://pixabay.com/
+"trainer" Image by ID 5132824 Pixabay
+"Timetables" Image by karabulakastan
+
+https://pxhere.com/
+"shoes" Image by unknone camera 
 
 Acknowledgments:
 I recieved inspitartion for theis project from;
