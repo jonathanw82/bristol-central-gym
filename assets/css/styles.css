@@ -54,6 +54,9 @@ body{
     color:#D95436;
 }
 
+.membership span:hover{
+    color: yellow;
+}
 /*----------------------------------------------------- Media Query */
 
 @media(max-width:443px){
