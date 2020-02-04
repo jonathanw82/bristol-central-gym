@@ -4,7 +4,9 @@ body{
     font-family: "Carrois Gothic", sans-serif;
 }
 
-
+.uppercase{
+    text-transform: upperclass;
+}
 /*--------------------------------------------------Heading */
 
 .heading{
@@ -13,7 +15,6 @@ body{
     background-color:  #36454f;
     display: block;
     margin: 0 auto;
-    
 }
 
 .heading h1{
@@ -24,9 +25,11 @@ body{
     color: #D99F7E;
 }
 
+
+
 /*-------------------------------------------------- Nav */
 #nav{
-        margin-left: 85px;
+        margin-left: 50px;
 }
 
 .menuitem{  
@@ -57,6 +60,31 @@ body{
 .membership span:hover{
     color: yellow;
 }
+
+/*----------------------------------------------------- Hero --*/
+ .hero{
+     height: 80vh;
+     background: url("..assets/images/shoes.jpg") no-repeat;
+   
+ }
+
+/*----------------------------------------------------- Footer */
+
+.footer-details{  
+    width: 100%;
+    height: 90px;
+    background-color:  #36454f;
+    display: block;
+    margin: 0 auto;
+    min-height: 120px;
+}
+
+
+
+
+
+
+
 /*----------------------------------------------------- Media Query */
 
 @media(max-width:443px){
