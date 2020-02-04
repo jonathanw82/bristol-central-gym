@@ -43,7 +43,7 @@ The customer goals of this website are:
 
 ## Features:
 
-Each page features a **navigation bar** with responsive features, the branding logo (top Left) of 
+Each page features a **navigation bar** with responsive features, the branding logo (top Left) of the page and a signup button top right. Each page has a footer that contains site adress and social media links.
 
 The site will be made up of 3-4 pages linked by a menu bar.
 
