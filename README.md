@@ -1,11 +1,10 @@
 # Bristol Central Gym
 
-A gym in the center of a buisy city, this website will give 
+The webisite is for the general public, to gain insite on what is available to them, prices and class times etc, by use of a clean easy to navigate menu structure.
 
 
 UX:
-
-The webisite is for the general public, to gain insite on what is available to them, prices and class times etc, by use of a clean easy to navigate menu structure.
+A gym in the center of a buisy city, so info on what is available id paramount, the user will be taken to a smooth landing page with scolling images of inspirational life styles. Through the easy to navingate menues the user can easly get the infomation they require to decide if this gym is for them!
 
 
 Features:
