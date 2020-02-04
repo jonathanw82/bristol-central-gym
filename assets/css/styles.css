@@ -1,6 +1,15 @@
+
+.bg-color-heading{
+    background-color: #f4f4f4;
+}
+
+
+
+/*--------------------------------------------------Heading */
+
 .heading{
-    position: relative;
     margin: 2px;
+    background-color: #f4f4f4;
 }
 
 .logo{
