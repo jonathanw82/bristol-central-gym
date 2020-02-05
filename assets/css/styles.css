@@ -45,6 +45,20 @@ font-family: "Righteous", sans-serif;
     font-size:28px;
     padding-top: 8px;
 }
+
+/*----------------------------------------------------- Footer */
+.footer{
+    background-color:#36454f;
+}
+
+.my-col{
+    border: 2px solid red;
+}
+
+.my-row{
+    border: 2px solid blue;
+}
+
 /*----------------------------------------------------- Media Query */
 
 @media(max-width:443px){
