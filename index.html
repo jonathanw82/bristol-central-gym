@@ -9,6 +9,7 @@
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/a71ecb4f79.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 
 	<title>Bristol Central Gym | Home</title>
@@ -16,51 +17,80 @@
 
 
 <body>
-        <!-----------------------------HEADER------------------------------------------->
+	<!-----------------------------HEADER------------------------------------------->
 	<header>
 		<div class="heading container-fluid">
 			<div class="row">
 				<h1>Bristol Central Gym</h1>
-                    
-					<ul id="nav" class="menu container">
 
-						<li class="menuitem membership">
-							<a href="signup.html"><span>SignUp</span>
-						</li>
-						<li class="menuitem">
-							<a href="timetables.html"><span>Timetables</span>
-						</li>
-						<li class="menuitem">
-							<a href="facilities.html"><span>Facilities</span>
-						</li>
-						<li class="menuitem">
-							<a href="index.html"><span>Home</span>
-						</li>
+				<ul id="nav" class="menu container">
 
-					</ul>				
+					<li class="menuitem membership">
+						<a href="signup.html"><span>SignUp</span>
+					</li>
+					<li class="menuitem">
+						<a href="timetables.html"><span>Timetables</span>
+					</li>
+					<li class="menuitem">
+						<a href="facilities.html"><span>Facilities</span>
+					</li>
+					<li class="menuitem">
+						<a href="index.html"><span>Home</span>
+					</li>
+
+				</ul>
 			</div>
 	</header>
 
-    <section>
-    <div class="container-fluid">
-    <div class="row hero">
-    </div> 
-    </div>
-    
-    </section>
+	<section>
+		<div class="container-fluid">
+
+			<div class="row hero-image">
+				 
+                    <img class="mySlides w3-animate-fading" src="./assets/images/imageslide/one.jpg" alt="hero Images">
+                    <img class="mySlides w3-animate-fading" src="./assets/images/imageslide/two.jpg" alt="hero Images">
+                    <img class="mySlides w3-animate-fading" src="./assets/images/imageslide/three.jpg" alt="hero Images">
+                    <img class="mySlides w3-animate-fading" src="./assets/images/imageslide/four.jpg" alt="hero Images">
+				</div>
+				<div class="hero-text">
+					<span class="logo"><h1>Bristol Crental Gym</h1></span>
+					<p>Some text Here </p>
+					<button>signUp</button>
+				</div>
+			</div>
+		</div>
+
+	</section>
 
 
-       <!-----------------------------FOOTER------------------------------------------->      
-       <footer>
-        <div class="footer-details container-fluid">
-            <div class="row">
-            <div class="col-sm-4">
-            <p> some text here</p>
-            </div>
-            </div>
-        </div>
-        
-       </footer>
+	<!-----------------------------FOOTER------------------------------------------->
+	<footer>
+		<div class="footer-details container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<p> some text here</p>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+	<script>
+		var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 9000);    
+            }
+	</script>
 </body>
 
 </html>

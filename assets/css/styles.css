@@ -7,6 +7,13 @@ body{
 .uppercase{
     text-transform: upperclass;
 }
+
+.logo{
+color: #D99F7E;
+font-family: "Righteous", sans-serif;
+
+}
+
 /*--------------------------------------------------Heading */
 
 .heading{
@@ -62,11 +69,31 @@ body{
 }
 
 /*----------------------------------------------------- Hero --*/
- .hero{
-     height: 80vh;
-     background: url("..assets/images/shoes.jpg") no-repeat;
-   
- }
+
+
+.hero-image{
+position: center;
+}
+
+.hero-image img{
+    height: 700px;
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+}
+
+.hero-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1{
+    font-size: 50px;
+}
 
 /*----------------------------------------------------- Footer */
 
