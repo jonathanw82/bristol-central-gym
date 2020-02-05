@@ -70,8 +70,12 @@ font-family: "Righteous", sans-serif;
     letter-spacing: 10px;
 }
 
-.footer-social-icons:hover {
+.footer-social-icons i:hover {
     color:#D95436; 
+}
+
+.join-now{
+    text-align: center;
 }
 
 /*----------------------------------------------------- Media Query */
