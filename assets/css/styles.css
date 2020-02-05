@@ -55,20 +55,23 @@ font-family: "Righteous", sans-serif;
 .foot-address{   
     line-height: 14px;
     font-size: 14px;
-    
+    margin-bottom: 1px;
+    padding-bottom: 1px;  
 }
 
-.foot-address h4{   
-    padding-top: 4px;
+.footer h4{   
+    padding-top: 3px;
     margin-bottom: 2px;
 }
 
-.my-col{
-    border: 2px solid red;
+.footer-social-icons {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 10px;
 }
 
-.my-row{
-    border: 2px solid blue;
+.footer-social-icons:hover {
+    color:#D95436; 
 }
 
 /*----------------------------------------------------- Media Query */
