@@ -87,6 +87,9 @@ https://pixabay.com/
 https://pxhere.com/
 "shoes" Image by unknone camera 
 
+https://tobiasahlin.com/moving-letters/#4
+Moving Text.
+
 Acknowledgments:
 I recieved inspitartion for theis project from;
 Elen Davies.
