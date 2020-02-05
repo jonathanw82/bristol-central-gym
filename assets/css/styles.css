@@ -11,109 +11,44 @@ body{
 .logo{
 color: #D99F7E;
 font-family: "Righteous", sans-serif;
-
 }
 
-/*--------------------------------------------------Heading */
+/*---------------------------------------- Navigation --------------------- */
 
-.heading{
-    width: 100%;
-    height: 90px;
-    background-color:  #36454f;
-    display: block;
-    margin: 0 auto;
+.nav-bg-color{
+    background-color:#36454f;
 }
 
-.heading h1{
-    font-family: "Righteous", sans-serif;
-    float: left;
-    padding: 20px;
-    text-align: center;
-    color: #D99F7E;
+  #navbarNav{
+    position: absolute;
+    right: 20px;
 }
 
-
-
-/*-------------------------------------------------- Nav */
-#nav{
-        margin-left: 50px;
-}
-
-.menuitem{  
-    display: inline;
-    position: relative;
-    float: right;
-    text-align: center;
-    padding: 20px;
-    margin-top:10px;
-}
-
-
-.menuitem span{
-    width: 100%;
-    text-align: center;
+.nav-item a{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
     color:#D99F7E;
-    float: right;
 }
 
-.menuitem span:hover{
+.nav-info a:hover{
     color:#D95436;
 }
 
 .membership span:hover{
-    color: yellow;
+    color:yellow;
 }
 
-/*----------------------------------------------------- Hero --*/
-
-
-.hero-image{
-position: center;
+.navbar-toggler-icon{
+    color:#D99F7E;
+    font-size:28px;
+    padding-top: 8px;
 }
-
-.hero-image img{
-    height: 700px;
-    position: center;
-    repeat: no-repeat;
-    size: cover;
-}
-
-.hero-text {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.hero-text h1{
-    font-size: 50px;
-}
-
-/*----------------------------------------------------- Footer */
-
-.footer-details{  
-    width: 100%;
-    height: 90px;
-    background-color:  #36454f;
-    display: block;
-    margin: 0 auto;
-    min-height: 120px;
-}
-
-
-
-
-
-
-
 /*----------------------------------------------------- Media Query */
 
 @media(max-width:443px){
-  .heading
+
+
+
 }
