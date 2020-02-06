@@ -121,12 +121,13 @@ font-family: "Righteous", sans-serif;
 /*----------------------------------------------------- Hero video */
 
 .hero-video{
-    width: 80vw;
-    height: 80%vh;
+  
+
 }
 
 .video-inline{
     text-align: center;
+    background-color: red;
 }
 
 /*----------------------------------------------------- Footer */
@@ -198,6 +199,9 @@ font-family: "Righteous", sans-serif;
        display: block;
    }
    
+ .mobile-small{
+     display: block;
+ }  
 .carousel-height {
     height: 40vh;
 }
@@ -209,10 +213,31 @@ font-family: "Righteous", sans-serif;
 .large-screen{
     display: none;
 }
+
+.footer-social-icons{
+    text-align: center;
+}
+
+.social-heading{
+    text-align: left;
+}
+
+.order1{
+    display: none;
+}
+
+#mobile{
+       display: none;
+   }
 }
 
 @media only screen  and (min-width: 444px) {
   .mobile-view { 
       display: none;
    }  
+
+#mobile-small{
+    display: none;
+}
+   
 }
