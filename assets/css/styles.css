@@ -1,5 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Carrois+Gothic|Righteous&display=swap');
 
+.picture {
+    margin-top: 2px;
+    height: 80%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic-01{
+     background-image: url("/assets/images/imageslide/one.jpg");
+}
+
+.pic-02{
+     background-image: url("/assets/images/imageslide/two.jpg");
+}
+
+.pic-03{
+ background-image: url("/assets/images/imageslide/three.jpg");
+}
+
+
+.pic-04{
+ background-image: url("/assets/images/imageslide/four.jpg");
+}
+
+.carousel-height {
+    height: 80vh;
+}
+
 body{
     font-family: "Carrois Gothic", sans-serif;
 }
@@ -82,7 +111,7 @@ font-family: "Righteous", sans-serif;
 
 .offer-text {
   font-weight: 900;
-  font-size: 60px;
+  font-size: 50px;
   color: red;
 }
 
@@ -146,8 +175,24 @@ font-family: "Righteous", sans-serif;
 
 /*----------------------------------------------------- Media Query */
 
-@media(max-width:443px){
 
+@media only screen and (max-width: 443px) {
+  #mobile-view {
+       display: block;
+   }
+   
+.carousel-height {
+    height: 40vh;
+}
 
+.picture{
+    height: 100%;
+}
 
+}
+
+@media only screen  and (min-width: 444px) {
+  .mobile-view { 
+      display: none;
+   }  
 }
