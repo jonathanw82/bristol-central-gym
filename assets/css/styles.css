@@ -78,6 +78,26 @@ font-family: "Righteous", sans-serif;
     text-align: center;
 }
 
+.footer-membership-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#D99F7E;
+    border: 2px solid #D99F7E;
+    border-radius: 2px;
+    padding-top:2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+}
+
+.footer-membership-link:hover{
+    color:yellow;
+    border-color: transparent;
+
+}
+
 /*
 .btn-signup{
     text-align: center;
