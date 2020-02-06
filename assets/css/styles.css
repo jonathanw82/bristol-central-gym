@@ -78,6 +78,15 @@ font-family: "Righteous", sans-serif;
     text-align: center;
 }
 
+/*
+.btn-signup{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: yellow;
+    border: 2px solid#D99F7E;
+    padding-bottom: 4px;
+}
+*/
 /*----------------------------------------------------- Media Query */
 
 @media(max-width:443px){
