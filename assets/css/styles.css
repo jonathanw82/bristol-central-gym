@@ -46,6 +46,31 @@ font-family: "Righteous", sans-serif;
     padding-top: 8px;
 }
 
+/*---------------------------------------- Hero image --------------------- */
+
+.hero img{
+    max-width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text{
+    position: absolute;
+    z-index: 1;
+    text-align:center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-heading-text{
+    font-size:100px; 
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #592E2E;
+    text-shadow:2px 2px 20px#fff; 
+}
+
 /*----------------------------------------------------- Footer */
 .footer{
     background-color:#36454f;
@@ -98,15 +123,7 @@ font-family: "Righteous", sans-serif;
 
 }
 
-/*
-.btn-signup{
-    text-align: center;
-    text-transform: uppercase;
-    background-color: yellow;
-    border: 2px solid#D99F7E;
-    padding-bottom: 4px;
-}
-*/
+
 /*----------------------------------------------------- Media Query */
 
 @media(max-width:443px){
