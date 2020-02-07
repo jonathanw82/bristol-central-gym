@@ -51,7 +51,6 @@ font-family: "Righteous", sans-serif;
     background-color: #36454f;
 }
 
-
 .picture {
     height: 100%;
     width: 100%;
@@ -126,9 +125,20 @@ width: 50px;
 }
 
 .video-inline{
-    text-align: center;
-   
+    text-align: center;  
 }
+
+.signup-video{
+    width: 100%;
+height: auto;
+    
+}
+
+.signup-video-container{
+ position: relative;
+text-align: center;
+}
+
 
 /*---------------------------------------- info page maps ----------------- */
 
@@ -149,6 +159,52 @@ width: 50px;
 
 .findus-info p{
     text-align: center;
+}
+
+/*----------------------------------------Signup page--------------------- */
+
+
+
+.signup-form{
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(60,60,60,0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+  top: 5px;
+} 
+
+.signup-form label{
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.text-input {
+  background-color: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0px 2px;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover{
+  background-color: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0px 2px;
+  border: 1px solid  #f16c6b;;
+  border-radius: 2px;
+}
+
+.signup-submit-button{
+margin-top: 7px;
+background-color: transparent;
+border-color: #ffffff;
 }
 /*---------------------------------------- Footer ------------------------- */
 .footer{
@@ -259,7 +315,10 @@ width: 50px;
      display: none;
  }  
 
-
+.signup-video{
+width: 90%;
+height: auto;
+}
 
    
 }
