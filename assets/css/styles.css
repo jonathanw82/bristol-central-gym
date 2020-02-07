@@ -60,20 +60,20 @@ font-family: "Righteous", sans-serif;
 }
 
 .pic-01{
-     background-image: url("/assets/images/imageslide/one.jpg");
+     background-image: url("../images/imageslide/one.jpg");
 }
 
 .pic-02{
-     background-image: url("/assets/images/imageslide/two.jpg");
+     background-image: url("../images/imageslide/two.jpg");
 }
 
 .pic-03{
-     background-image: url("/assets/images/imageslide/three.jpg");
+     background-image: url("../images/imageslide/three.jpg");
 }
 
 
 .pic-04{
-     background-image: url("/assets/images/imageslide/four.jpg");
+     background-image: url("../images/imageslide/four.jpg");
 }
 
 .carousel-height {
@@ -119,8 +119,8 @@ font-family: "Righteous", sans-serif;
 /*---------------------------------------- Hero Video --------------------- */
 
 .hero-video{
-height: 80px;
-width: 50px;
+    height: 80px;
+    width: 50px;
 
 }
 
@@ -130,13 +130,13 @@ width: 50px;
 
 .signup-video{
     width: 100%;
-height: auto;
+    height: auto;
     
 }
 
 .signup-video-container{
- position: relative;
-text-align: center;
+    position: relative;
+    text-align: center;
 }
 
 
@@ -166,19 +166,20 @@ text-align: center;
 
 
 .signup-form{
-  margin-top: 150px;
   color: #fff;
   background-color: rgba(60,60,60,0.6);
   max-width: 400px;
   position: absolute;
-  left: 10%;
+  left: 15%;
   padding: 30px;
-  top: 5px;
+  top: 15%;
+
 } 
 
 .signup-form label{
     margin-top: 2px;
     margin-bottom: 0;
+    margin-right: 250px;
 }
 
 .text-input {
@@ -206,6 +207,8 @@ margin-top: 7px;
 background-color: transparent;
 border-color: #ffffff;
 }
+
+
 /*---------------------------------------- Footer ------------------------- */
 .footer{
     background-color:#36454f;
@@ -316,7 +319,7 @@ border-color: #ffffff;
  }  
 
 .signup-video{
-width: 90%;
+width: 80%;
 height: auto;
 }
 
