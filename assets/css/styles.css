@@ -122,8 +122,8 @@ font-family: "Righteous", sans-serif;
 /*---------------------------------------- Hero Video --------------------- */
 
 .hero-video{
-  width: 100%vw;
-  height: 80vh;
+height: 80px;
+width: 50px;
 
 }
 
@@ -196,27 +196,17 @@ font-family: "Righteous", sans-serif;
 /*---------------------------------------- Media Query --------------------- */
 
 @media only screen and (max-width: 443px) {   /*mobile view*/
-  #mobile-view {
-       display: block;
+
+  #footer-desktop-view {
+       display: none;
    }
-   
- .mobile-small{
-     display: block;
- }  
+    
 .carousel-height {
     height: 40vh;
 }
 
 .picture{
     height: 100%;
-}
-
-.large-screen{
-    display: none;
-}
-
-.footer-social-icons{
-    text-align: center;
 }
 
 .social-heading{
@@ -229,16 +219,28 @@ font-family: "Righteous", sans-serif;
 
 #mobile{
        display: none;
-   }
 }
+
+.footer-social-icons{
+     letter-spacing: 2px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+.footer h4 {
+    margin-bottom: 5px;
+}
+
+}
+
 
 @media only screen  and (min-width: 444px) { /*tablet and desktop view*/
-  .mobile-view { 
-      display: none;
-   }  
+ 
+ #footer-mobile-view{
+     display: none;
+ }  
 
-#mobile-small{
-    display: none;
-}
+
+
    
 }
