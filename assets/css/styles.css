@@ -57,6 +57,7 @@ font-family: "Righteous", sans-serif;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 .pic-01{
@@ -126,9 +127,29 @@ width: 50px;
 
 .video-inline{
     text-align: center;
-    background-color: red;
+   
 }
 
+/*---------------------------------------- info page maps ----------------- */
+
+.map-container{
+    border: 5px solid black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.findus-info{
+   vertical-align: center;
+}
+
+.findus-info h2{
+    text-align: center;
+}
+
+.findus-info p{
+    text-align: center;
+}
 /*---------------------------------------- Footer ------------------------- */
 .footer{
     background-color:#36454f;
