@@ -1,33 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Carrois+Gothic|Righteous&display=swap');
 
-.picture {
-    height: 80%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.pic-01{
-     background-image: url("/assets/images/imageslide/one.jpg");
-}
-
-.pic-02{
-     background-image: url("/assets/images/imageslide/two.jpg");
-}
-
-.pic-03{
- background-image: url("/assets/images/imageslide/three.jpg");
-}
-
-
-.pic-04{
- background-image: url("/assets/images/imageslide/four.jpg");
-}
-
-.carousel-height {
-    height: 80vh;
-}
-
 body{
     font-family: "Carrois Gothic", sans-serif;
 }
@@ -83,6 +55,34 @@ font-family: "Righteous", sans-serif;
     margin-right: auto;
 }
 */
+.picture {
+    height: 80%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic-01{
+     background-image: url("/assets/images/imageslide/one.jpg");
+}
+
+.pic-02{
+     background-image: url("/assets/images/imageslide/two.jpg");
+}
+
+.pic-03{
+ background-image: url("/assets/images/imageslide/three.jpg");
+}
+
+
+.pic-04{
+ background-image: url("/assets/images/imageslide/four.jpg");
+}
+
+.carousel-height {
+    height: 80vh;
+}
+
 .hero-text{
     position: absolute;
     z-index: 1;
@@ -118,10 +118,12 @@ font-family: "Righteous", sans-serif;
   display: inline-block;
   line-height: 1em;
 }
-/*----------------------------------------------------- Hero video */
+
+/*---------------------------------------- Hero Video --------------------- */
 
 .hero-video{
-  
+  width: 100%vw;
+  height: 80vh;
 
 }
 
@@ -130,7 +132,7 @@ font-family: "Righteous", sans-serif;
     background-color: red;
 }
 
-/*----------------------------------------------------- Footer */
+/*---------------------------------------- Footer ------------------------- */
 .footer{
     background-color:#36454f;
     color:#D99F7E;
@@ -191,10 +193,9 @@ font-family: "Righteous", sans-serif;
 }
 
 
-/*----------------------------------------------------- Media Query */
+/*---------------------------------------- Media Query --------------------- */
 
-
-@media only screen and (max-width: 443px) {
+@media only screen and (max-width: 443px) {   /*mobile view*/
   #mobile-view {
        display: block;
    }
@@ -231,7 +232,7 @@ font-family: "Righteous", sans-serif;
    }
 }
 
-@media only screen  and (min-width: 444px) {
+@media only screen  and (min-width: 444px) { /*tablet and desktop view*/
   .mobile-view { 
       display: none;
    }  
