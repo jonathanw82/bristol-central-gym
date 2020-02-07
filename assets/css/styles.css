@@ -47,19 +47,16 @@ font-family: "Righteous", sans-serif;
 }
 
 /*---------------------------------------- Hero image --------------------- */
-/*
-.hero img{
-    max-width: 80%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+.bg-caroucel{
+    background-color: #36454f;
 }
-*/
+
+
 .picture {
-    height: 80%;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .pic-01{
@@ -71,12 +68,12 @@ font-family: "Righteous", sans-serif;
 }
 
 .pic-03{
- background-image: url("/assets/images/imageslide/three.jpg");
+     background-image: url("/assets/images/imageslide/three.jpg");
 }
 
 
 .pic-04{
- background-image: url("/assets/images/imageslide/four.jpg");
+     background-image: url("/assets/images/imageslide/four.jpg");
 }
 
 .carousel-height {
@@ -201,8 +198,9 @@ width: 50px;
        display: none;
    }
     
+
 .carousel-height {
-    height: 40vh;
+    height: 34vh;
 }
 
 .picture{
