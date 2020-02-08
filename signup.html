@@ -45,9 +45,9 @@
 	<section>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12 signup-video-container">
+				<div class="col-sm-12 signup-video-container">
 					<video class="signup-video" autoplay loop muted>
-						<source src="./assets/video/NewHerovideo.p4" type="video/mp4">
+						<source src="./assets/video/NewHerovideo.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
 
@@ -85,23 +85,26 @@
 								<div class="col-sm-12 checkboxes">
 									<p>Please tick boxes if you wish to recieve infomation on new products and
 										promotions</p>
+                                    <div class="row">
+                                    <div class="col-sm-6 agree-info">
 									<p class="check-text">Agree to the terms<br> and conditions?</p>
-										<input type="checkbox" checked="checked" name="agree" id="agree">
-
-										<p class="check-text">Recieve infomation about new
-											products?<input type="checkbox" checked="checked" name="useemail" id="useemail"></p>
-
+										<input type="checkbox" name="agree" id="agree" required>
+                                    </div>
+                                    <div class="col-sm-6 recieve-info">
+										<p class="check-text">Recieve infomation about new products?</p>
+										<input type="checkbox"  name="useemail" id="useemail">
+                                    </div>
+								</div>
 								</div>
 							</div>
-                            <div class="signup-button">
-							<button type="submit" class="btn signup-submit-button ">SignUp!</button>
-                            </div>
+								<div class="signup-button">
+									<button type="submit" class="btn signup-submit-button" >SignUp!</button>
+							</div>
 					</form>
 
 				</div>
 			</div>
 		</div>
-
 
 
 	</section>
