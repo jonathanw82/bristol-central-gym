@@ -47,13 +47,26 @@
 			<div class="row">
 				<div class="col-12 signup-video-container">
 					<video class="signup-video" autoplay loop muted>
-						<source src="./assets/video/NewHerovideo.mp4" type="video/mp4">
+						<source src="./assets/video/NewHerovideo.p4" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
 
-					<form>
+					<form class="video-cantainer-form">
 						<div class="signup-form">
 							<h2 class="offer-text signup-offer-text">SignUp Now For The New YOU!</h2>
+
+							<div class="dropdown">
+								<button class="btn dropdown-membership-button dropdown-toggle" type="button"
+									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false">
+									Select Your Membership!
+								</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Single Person Membership</a>
+									<a class="dropdown-item" href="#">Family Membership</a>
+									<a class="dropdown-item" href="#">Day Pass</a>
+								</div>
+							</div>
 
 							<label for="fname">First Name</label>
 							<input class="text-input" type="text" name="first_name" id="fname" required>
@@ -61,20 +74,34 @@
 							<label for="lname">Last Name</label>
 							<input class="text-input" type="text" name="last_name" id="lname" required>
 
-							<label for="phone">Telephone</label>
-							<input class="text-input" type="tel" name="phone" id="phone" required>
+							<label for="email">Email Addess</label>
+							<input class="text-input" type="email" name="email" id="email" required>
 
-							<label for="email">Email Address</label>
-							<input class="text-input" type="email" name="email_address" id="email" required>
+							<label for="email">Telephone</label>
+							<input class="text-input" type="text" name="phone" id="phone" required>
 
-                              <input type="checkbox" checked="checked">
 
+							<div class="row">
+								<div class="col-sm-12 checkboxes">
+									<p>Please tick boxes if you wish to recieve infomation on new products and
+										promotions</p>
+									<p class="check-text">Agree to the terms<br> and conditions?</p>
+										<input type="checkbox" checked="checked" name="agree" id="agree">
+
+										<p class="check-text">Recieve infomation about new
+											products?<input type="checkbox" checked="checked" name="useemail" id="useemail"></p>
+
+								</div>
+							</div>
+                            <div class="signup-button">
 							<button type="submit" class="btn signup-submit-button ">SignUp!</button>
+                            </div>
 					</form>
+
 				</div>
 			</div>
 		</div>
-		
+
 
 
 	</section>
