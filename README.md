@@ -87,8 +87,13 @@ https://pixabay.com/
 https://pxhere.com/
 "shoes" Image by unknone camera 
 
+Media: The moving text and buttons used in this site were obtained from
+
 https://tobiasahlin.com/moving-letters/#4
 Moving Text.
+
+https://webdeasy.de/en/top-css-buttons-en/
+David Conner #21 Collection of Button Hover Effects
 
 Acknowledgments:
 I recieved inspitartion for theis project from;
