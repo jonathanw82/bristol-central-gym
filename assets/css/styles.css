@@ -160,24 +160,30 @@ font-family: "Righteous", sans-serif;
     background-image: url("../images/GYM.jpg");
     height: 500px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
+    border-radius: 70px;
+    border-style: ridge;
 }
 
 .studio-classes-image{
     background-image: url("../images/Classes.jpg");
     height: 500px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
+    border-radius: 70px;    
+    border-style: ridge;
 }
 
 .personal-training-image{
     background-image: url("../images/trainer.jpg");
     height: 500px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
+    border-radius: 70px;
+    border-style: ridge;
 }
 
 .gym-info{
