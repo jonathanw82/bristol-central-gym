@@ -3,6 +3,7 @@
 body{
     font-family: "Carrois Gothic", sans-serif;
     margin: 20px;
+    
 }
 
 .uppercase{
@@ -49,7 +50,7 @@ font-family: "Righteous", sans-serif;
 
 /*---------------------------------------- Hero image --------------------- */
 .bg-caroucel{
-    background-color: #36454f;
+   
 }
 
 .picture {
@@ -85,13 +86,22 @@ font-family: "Righteous", sans-serif;
     position: relative;
 }
 
-.text-overlay{
+
+/* .text-overlay{
     position: absolute;
     z-index: 2;
     top: 150px;
     left: 0;
     padding-left: 20px;
+} */
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 
 .hero-text{  
     text-align:center; 
@@ -100,15 +110,16 @@ font-family: "Righteous", sans-serif;
 }
 
 .hero-heading-text{
-    font-size:120px; 
+    font-size:6vw; 
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: #592E2E;
     text-shadow:2px 2px 20px#fff; 
 }
 
 .hero-text p{
+    word-wrap: break-word;
     color: #8FB6BF;
-    font-size: 60px;
+    font-size: 3vw;
     text-transform: uppercase;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #592E2E;
@@ -116,9 +127,10 @@ font-family: "Righteous", sans-serif;
 }
 
 .hero-offer-text {
-  font-weight: 900;
-  font-size: 50px;
-  color: red;
+    font-weight: 900;
+    font-size: 3vw;
+    color: red;
+    word-wrap: break-word;
 }
 
 .offer-text .letter {
@@ -140,6 +152,13 @@ font-family: "Righteous", sans-serif;
 
 
 /*---------------------------------------- about the gym --------------------- */
+
+/*---------------------------------------- Membertship prices ---------------- */
+
+.membership-prices{
+  text-align: center;
+}
+
 
 .about-the-gym{
     text-align: center;
@@ -200,15 +219,12 @@ font-family: "Righteous", sans-serif;
     position: relative;
     padding: 90px 90px 90px;
 }  
-/*---------------------------------------- Timetable and find us maps ----------------- */
+/*---------------------------------------- Timetable  ----------------- */
 
-.map-container{
-    border: 5px solid black;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.inner-table tr{
+    border: 2px solid black;
 }
+
 .findus-info{
    vertical-align: center;
 }
@@ -221,7 +237,33 @@ font-family: "Righteous", sans-serif;
     text-align: center;
 }
 
+/*---------------------------------------- map -------------------------- */
+
+.map-box{
+  margin-top: 20px;
+       border: 5px solid black;
+    
+}
+
+.map-container-inline{
+    text-align: center;
+}
+
+
+
+.map-container-inmodal{
+    border: 5px solid black;
+    padding-left: 0;
+    padding-right: 0;
+    height: 400px;
+    width: 400px;
+}
+
+.findus-modal-info{
+    display: inline-block;
+}
 /*----------------------------------------Signup page--------------------- */
+
 .signup-video{
     width: 100%;
     height: auto;    
@@ -459,6 +501,9 @@ font-family: "Righteous", sans-serif;
 
 
 /*---------------------------------------- Media Query --------------------- */
+
+
+
 
 @media only screen and (max-width: 443px) {   /*mobile view*/
 
