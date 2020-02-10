@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Carrois+Gothic|Righteous&display=swap');
 
 body{
-    font-family: "Carrois Gothic", sans-serif;
-    margin: 20px;
-    
+    font-family: "Carrois Gothic", sans-serif; 
+
 }
 
 .uppercase{
@@ -16,6 +15,10 @@ font-family: "Righteous", sans-serif;
 }
 
 /*---------------------------------------- Navigation --------------------- */
+.navbar-collapse{
+    background-color: #36454f;
+    padding-left: 10px;
+}
 
 .nav-bg-color{
     background-color:#36454f;
@@ -557,7 +560,6 @@ font-family: "Righteous", sans-serif;
 
 
 
-
 @media only screen and (max-width: 443px) {   /*mobile view*/
 
   #footer-desktop-view {
@@ -599,6 +601,8 @@ font-family: "Righteous", sans-serif;
     padding-left: 0px;
 
 }
+
+
 }
 
 
@@ -609,11 +613,20 @@ font-family: "Righteous", sans-serif;
  }  
 
 .signup-video{
-width: 80%;
-height: auto;
+    width: 70vw;
+    height: auto;
 }
 
-   
+}
+
+
+@media only screen  and (max-width: 1000px){
+
+#navbarNav{
+    position: relative;
+    margin-left: 5px;
+}
+
 }
 
 
