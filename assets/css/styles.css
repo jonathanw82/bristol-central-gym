@@ -225,6 +225,10 @@ font-family: "Righteous", sans-serif;
     border: 2px solid black;
 }
 
+.inner-table td{
+    border: 2px solid black;
+}
+
 .findus-info{
    vertical-align: center;
 }
@@ -237,6 +241,33 @@ font-family: "Righteous", sans-serif;
     text-align: center;
 }
 
+.pilates{
+    background-color: pink;
+}
+
+.yoga{
+    background-color: yellow;
+}
+
+.legs{
+    background-color: blue;
+}
+
+.bodypump{
+    background-color: red;
+}
+
+.absblast{
+    background-color: greenyellow;
+}
+
+.spin{
+    background-color: orange;
+}
+
+.zumba{
+    background-color: gray;
+}
 /*---------------------------------------- map -------------------------- */
 
 .map-box{
