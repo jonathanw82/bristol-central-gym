@@ -33,6 +33,9 @@
 				<li class="nav-item nav-info ">
 					<a class="nav-link" href="timetables.html">Timetables</a>
 				</li>
+                <li class="nav-item nav-info active">
+					<a class="nav-link" data-toggle="modal" data-target="#mapModal">Find-us</a>
+				</li>
 				<li class="nav-item membership active">
 					<a class="nav-link" href="signup.html"><span>SignUp</span></a>
 				</li>
@@ -62,9 +65,9 @@
 									Select Your Membership!
 								</button>
 								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-									<a class="dropdown-item" href="#">Single Person Membership</a>
-									<a class="dropdown-item" href="#">Family Membership</a>
-									<a class="dropdown-item" href="#">Day Pass</a>
+									<a class="dropdown-item" href="#">Gym Only</a>
+									<a class="dropdown-item" href="#">Gym & Classes</a>
+									<a class="dropdown-item" href="#">Gym, Class & Swim</a>
 								</div>
 							</div>
 
@@ -98,7 +101,7 @@
 								</div>
 							</div>
 								<div class="signup-button">
-									<button type="submit" class="btn signup-submit-button" >SignUp!</button>
+									<button type="submit" class="btn signup-submit-button"  data-toggle="modal" data-target="#ThankyouModal" >SignUp!</button>
 							</div>
 					</form>
 
@@ -167,6 +170,57 @@
 		</div>
 	</footer>
 
+	  <!------------------------------------------- modal -------------------------->
+			<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="mapModalLabel">Here is how to find us</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            </div>
+					<div class="modal-body">
+						<div class="findus-modal-info">
+							<p>Bristol Crental Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
+								<p> Click on the map to find us </p>
+						</div>
+						<iframe class="map-container-inmodal"
+							src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+							frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
+								href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        <div class="modal fade" id="ThankyouModal" tabindex="-1" role="dialog" aria-labelledby="ThankyouModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ThankyouModalLabel">Here is how to find us</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            </div>
+					<div class="modal-body">
+						<div class="findus-modal-info">
+							<p>Bristol Crental Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
+								<p> Click on the map to find us </p>
+						</div>
+						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 </body>
 
 <!------------------------------------------- letter animation -------------------------->

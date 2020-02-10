@@ -214,12 +214,36 @@ font-family: "Righteous", sans-serif;
     position: relative;
     padding: 90px 90px 90px;
 }
-  
+
+ .class-info-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#D99F7E;
+    border: 2px solid #D99F7E;
+    border-radius: 2px;
+    padding-top:2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+ }
+
+.class-info-link:hover{
+    color:yellow;
+    border-color: #D95436;
+    background-color: #36454f;
+}
+
 .trainers-info{
     position: relative;
     padding: 90px 90px 90px;
 }  
 /*---------------------------------------- Timetable  ----------------- */
+.class-timetable{
+    overflow:scroll;
+    padding: 20px;
+}
 
 .inner-table tr{
     border: 2px solid black;
@@ -271,16 +295,15 @@ font-family: "Righteous", sans-serif;
 /*---------------------------------------- map -------------------------- */
 
 .map-box{
-  margin-top: 20px;
-       border: 5px solid black;
-    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 5px solid black; 
 }
 
 .map-container-inline{
     text-align: center;
+    overflow: hidden;
 }
-
-
 
 .map-container-inmodal{
     border: 5px solid black;
@@ -527,7 +550,6 @@ font-family: "Righteous", sans-serif;
 .footer-membership-link:hover{
     color:yellow;
     border-color: transparent;
-
 }
 
 
@@ -573,6 +595,10 @@ font-family: "Righteous", sans-serif;
     margin-bottom: 5px;
 }
 
+.class-timetable{
+    padding-left: 0px;
+
+}
 }
 
 
