@@ -15,6 +15,7 @@ body{
 }
 
 /*---------------------------------------- Navigation --------------------- */
+
 .navbar-collapse{
     background-color: #36454f;
     padding-left: 10px;
@@ -52,7 +53,6 @@ body{
 }
 
 /*---------------------------------------- Hero image --------------------- */
-
 
 .picture {
     height: 100%;
@@ -93,7 +93,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 .hero-text{  
     text-align:center; 
@@ -151,13 +150,13 @@ body{
   text-align: center;
 }
 
-
 .about-the-gym{
     text-align: center;
 }
 
 .about-header{
     background-color: #36454f;
+    margin-bottom: 30px;
 }
 
 .about-the-gym h2{
@@ -495,13 +494,11 @@ body{
     padding-left: 70px;
 }
 
-
 .thankYou-modal-info{
     text-align: left;
     word-wrap: break-word;
     color: red;
 }
-
 
 /*---------------------------------------- Footer ------------------------- */
 
@@ -579,7 +576,6 @@ body{
     display: none;
 }
     
-
 .carousel-height {
     height: 34vh;
 }
@@ -617,10 +613,25 @@ body{
 
 .modal-header-thankyou{
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .modal-header-map{
     padding-left: 20px;
+    padding-right: 20px;
+}
+
+.our-gym-images-mobile{
+    width: 300px;
+    height: 300px;
+}
+
+.gym-info,
+.trainers-info,
+.classes-info{
+    text-align: center;
+    padding: 10px 20px;
+   
 }
 }
 
@@ -639,10 +650,15 @@ body{
 
 .modal-header-map{
     padding-left: 70px;
+    padding-right: 20px;
 }
 
 .modal-header-thankyou{
     padding-left: 15px;
+    padding-right: 15px
+}
+.about-header{
+    margin-bottom: 20px;
 }
 }
 
