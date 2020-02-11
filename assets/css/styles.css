@@ -10,8 +10,8 @@ body{
 }
 
 .logo{
-color: #D99F7E;
-font-family: "Righteous", sans-serif;
+    color: #D99F7E;
+    font-family: "Righteous", sans-serif;
 }
 
 /*---------------------------------------- Navigation --------------------- */
@@ -52,9 +52,7 @@ font-family: "Righteous", sans-serif;
 }
 
 /*---------------------------------------- Hero image --------------------- */
-.bg-caroucel{
-   
-}
+
 
 .picture {
     height: 100%;
@@ -89,20 +87,11 @@ font-family: "Righteous", sans-serif;
     position: relative;
 }
 
-
-/* .text-overlay{
-    position: absolute;
-    z-index: 2;
-    top: 150px;
-    left: 0;
-    padding-left: 20px;
-} */
-
 .text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -137,8 +126,8 @@ font-family: "Righteous", sans-serif;
 }
 
 .offer-text .letter {
-  display: inline-block;
-  line-height: 1em;
+    display: inline-block;
+    line-height: 1em;
 }
 
 /*---------------------------------------- Hero Video --------------------- */
@@ -218,7 +207,7 @@ font-family: "Righteous", sans-serif;
     padding: 90px 90px 90px;
 }
 
- .class-info-link{
+.class-info-link{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
@@ -307,13 +296,12 @@ font-family: "Righteous", sans-serif;
     text-align: center;
     overflow: hidden;
 }
-
+.map-container-inmodal-thankyou,
 .map-container-inmodal{
     border: 5px solid black;
     padding-left: 0;
-    padding-right: 0;
-    height: 400px;
-    width: 400px;
+    padding-right: 0;   
+    width: 20%vw;
 }
 
 .findus-modal-info{
@@ -491,7 +479,32 @@ font-family: "Righteous", sans-serif;
  .agree-info{
      padding-right: 0px;
  }
+
+
+/*--------------------------------------- Modal --------------------------*/
+.modal-body{
+    text-align: center;
+}
+
+.findus-modal-info{
+    text-align: left;
+    margin-right: 180px;
+}
+
+.modal-header{
+    padding-left: 70px;
+}
+
+
+.thankYou-modal-info{
+    text-align: left;
+    word-wrap: break-word;
+    color: red;
+}
+
+
 /*---------------------------------------- Footer ------------------------- */
+
 .footer{
     background-color:#36454f;
     color:#D99F7E;
@@ -559,12 +572,12 @@ font-family: "Righteous", sans-serif;
 /*---------------------------------------- Media Query --------------------- */
 
 
-
 @media only screen and (max-width: 443px) {   /*mobile view*/
 
-  #footer-desktop-view {
-       display: none;
-   }
+.about-the-gym-desktop,   
+#footer-desktop-view {
+    display: none;
+}
     
 
 .carousel-height {
@@ -602,12 +615,19 @@ font-family: "Righteous", sans-serif;
 
 }
 
+.modal-header-thankyou{
+    padding-left: 15px;
+}
 
+.modal-header-map{
+    padding-left: 20px;
+}
 }
 
 
 @media only screen  and (min-width: 444px) { /*tablet and desktop view*/
- 
+
+.about-the-gym-mobile,
  #footer-mobile-view{
      display: none;
  }  
@@ -617,6 +637,13 @@ font-family: "Righteous", sans-serif;
     height: auto;
 }
 
+.modal-header-map{
+    padding-left: 70px;
+}
+
+.modal-header-thankyou{
+    padding-left: 15px;
+}
 }
 
 
