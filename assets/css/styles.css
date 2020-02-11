@@ -109,25 +109,51 @@ body{
 
 .hero-text p{
     word-wrap: break-word;
-    color: #8FB6BF;
-    font-size: 3vw;
+    color:#D99F7E; 
+    font-size: 5vw;
     text-transform: uppercase;
-    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: #592E2E;
-    font-weight: bold;
+    text-shadow:2px 2px 20px#fff; 
 }
 
 .hero-offer-text {
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #592E2E;
     font-weight: 900;
     font-size: 3vw;
     color: red;
+    text-transform: uppercase;
     word-wrap: break-word;
+    text-shadow:2px 2px 20px#fff; 
 }
 
 .offer-text .letter {
     display: inline-block;
     line-height: 1em;
 }
+
+.hero-text-mobile{
+    word-wrap: break-word;
+    color:red; 
+    font-size: 6vw;
+    font-weight: 100px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #592E2E;
+}
+
+.hero-text-mobile-break{
+    word-wrap: break-word;
+    color:white; 
+    font-size: 6vw;
+    font-weight: 100px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #000000;
+    text-shadow:2px 2px 20px#fff; 
+}
+
 
 /*---------------------------------------- Hero Video --------------------- */
 
@@ -633,8 +659,24 @@ body{
     padding: 10px 20px;
    
 }
+
+.membership-prices{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
+.hero-heading-text{
+   display: none;
+}
+
+.hero-text p{
+    display: none;
+}
+
+.hero-offer-text-mobile{
+    font-size: 5vw;
+}
+}
 
 @media only screen  and (min-width: 444px) { /*tablet and desktop view*/
 
@@ -660,8 +702,15 @@ body{
 .about-header{
     margin-bottom: 20px;
 }
+
+.hero-text-mobile-break{
+    display: none;
 }
 
+.hero-text-mobile{
+    display: none;
+}
+}
 
 @media only screen  and (max-width: 1000px){
 
