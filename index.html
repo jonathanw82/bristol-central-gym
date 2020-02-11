@@ -8,7 +8,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://kit.fontawesome.com/a71ecb4f79.js" crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -24,7 +25,7 @@
 	<nav class="navbar navbar-expand-lg nav-bg-color sticky-top ">
 		<h1 class="logo">Bristol Central Gym</h1>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                 <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
          </button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
@@ -84,8 +85,7 @@
 					<div class="col-sm-12 hero-text">
 						<h1 class="logo hero-heading-text">Bristol Central Gym</h1>
 						<p>Signup today for as little as £16 and recieve 1 month </p>
-                        <div class="hero-text-mobile">Signup today and recieve 1 month </div>
-						<span class="offer-text hero-offer-text hero-offer-text-mobile">absolutly free!</span>
+						<span class="offer-text hero-offer-text offer-desktop">absolutly free!</span>
 					</div>
 				</div>
 			</div>
@@ -94,9 +94,11 @@
 		<!--------------------------------------- Membership prices ----------------------------------->
 
 		<div class="container membership-prices">
-			<div class="row ">
+			<div class="row">
 				<div class="col-sm-12 hero-text-mobile-break">
 					<h2>Our memberships start from as little as £16 a month</h2>
+					<div>Signup today and recieve 1 month</div>
+					<span class="offer-text hero-offer-text">absolutly free!</span>
 				</div>
 			</div>
 			<div class="row">
@@ -279,17 +281,17 @@
 						<p class="foot-address">Bristol Central Gym, City Center<br>Long Road Ahead<br>BS6 6NR</p>
 					</div>
 					<div class="col-sm-4 join-now">
-						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
+						<h3 class="footer-offer"> Join Up Now For 1 Month Free!</h3>
 						<a class="footer-membership-link" href="signup.html"><span>SignUp!</span></a>
 					</div>
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
 						<div class="footer-social-icons">
-							<span><i class="fab fa-facebook"></i></span>
-							<span><i class="fab fa-twitter"></i></span>
-							<span><i class="fab fa-instagram"></i></span>
-							<span><i class="fab fa-youtube"></i></span>
-							<span><i class="fab fa-snapchat"></i></span>
+							<span><i class="fa fa-facebook"></i></span>
+							<span><i class="fa fa-twitter"></i></span>
+							<span><i class="fa fa-instagram"></i></span>
+							<span><i class="fa fa-youtube"></i></span>
+							<span><i class="fa fa-snapchat"></i></span>
 						</div>
 					</div>
 				</div>
@@ -315,11 +317,11 @@
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
 						<div class="footer-social-icons">
-							<span><i class="fab fa-facebook"></i></span>
-							<span><i class="fab fa-twitter"></i></span>
-							<span><i class="fab fa-instagram"></i></span>
-							<span><i class="fab fa-youtube"></i></span>
-							<span><i class="fab fa-snapchat"></i></span>
+							<span><i class="fa fa-facebook"></i></span>
+							<span><i class="fa fa-twitter"></i></span>
+							<span><i class="fa fa-instagram"></i></span>
+							<span><i class="fa fa-youtube"></i></span>
+							<span><i class="fa fa-snapchat"></i></span>
 						</div>
 					</div>
 				</div>
@@ -327,27 +329,9 @@
 		</div>
 	</footer>
 
-	<!------------------------------------------- letter animation -------------------------->
 
-	<script>
-		var textWrapper = document.querySelector('.footer-offer');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.footer-offer .letter',
-    opacity: [0,1],
-    easing: "easeInOutQuad",
-    duration: 2250,
-    delay: (el, i) => 150 * (i+1)
-  }).add({
-    targets: '.footer-offer',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-	</script>
+
 
 	<!------------------------------------------- Slide show -------------------------------->
 	<script>
@@ -368,8 +352,11 @@ anime.timeline({loop: true})
 	</script>
 
 	<script>
-		var textWrapper = document.querySelector('.offer-text');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+		var textWrapper = document.querySelectorAll('.offer-text');
+        textWrapper.forEach(function(item) {
+            item.innerHTML = item.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+        });
+
 
 anime.timeline({loop: true})
   .add({
@@ -381,12 +368,13 @@ anime.timeline({loop: true})
     duration: 2000,
     delay: (el, i) => 70*i
   }).add({
-    targets: '.ml2',
+    targets: '.offer-text',
     opacity: 0,
     duration: 5000,
     easing: "easeOutExpo",
     delay: 100
   });
+        
 	</script>
 
 

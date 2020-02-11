@@ -8,7 +8,9 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://kit.fontawesome.com/a71ecb4f79.js" crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -23,7 +25,7 @@
 	<nav class="navbar navbar-expand-lg nav-bg-color sticky-top ">
 		<h1 class="logo">Bristol Central Gym</h1>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                 <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
          </button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
@@ -33,7 +35,7 @@
 				<li class="nav-item nav-info active">
 					<a class="nav-link" href="timetables.html">Timetables</a>
 				</li>
-                <li class="nav-item nav-info active">
+				<li class="nav-item nav-info active">
 					<a class="nav-link" data-toggle="modal" data-target="#mapModal">Find-us</a>
 				</li>
 				<li class="nav-item membership ">
@@ -49,78 +51,78 @@
 
 		<section>
 
-    <div class="class-timetable">
-		<table class="table inner-table">
-			<thead class="thead-dark">
-				<tr>
-                    <th scope="col">Monday</th>
-					<th scope="col">Tuesday</th>
-					<th scope="col">Wednesday</th>
-					<th scope="col">Thursday</th>
-					<th scope="col">Friday</th>
-					<th scope="col">Saturday</th>
-					<th scope="col">Sunday</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>			
-                    <td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
-					<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>                   
-				</tr>
-				<tr>
-                    <td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>   			
-                    <td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>                   
-                    <td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>                 
-				</tr>
-				<tr>			
-                    <td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
-					<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>                   
-				</tr>
-                <tr>			
-                    <td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
-					<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>                   
-				</tr>
-                	<tr>			
-                    <td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
-					<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>                   
-				</tr>
-                <tr>			
-                    <td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
-					<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
-					<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
-                    <td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>                   
-				</tr>
-			</tbody>
-		</table>
-    </div>
-	</section>
+			<div class="class-timetable">
+				<table class="table inner-table">
+					<thead class="thead-dark">
+						<tr>
+							<th scope="col">Monday</th>
+							<th scope="col">Tuesday</th>
+							<th scope="col">Wednesday</th>
+							<th scope="col">Thursday</th>
+							<th scope="col">Friday</th>
+							<th scope="col">Saturday</th>
+							<th scope="col">Sunday</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
 
 		<div class="container-fluid map-box">
 			<div class="row ">
@@ -157,18 +159,18 @@
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
 						<div class="footer-social-icons">
-							<span><i class="fab fa-facebook"></i></span>
-							<span><i class="fab fa-twitter"></i></span>
-							<span><i class="fab fa-instagram"></i></span>
-							<span><i class="fab fa-youtube"></i></span>
-							<span><i class="fab fa-snapchat"></i></span>
+							<span><i class="fa fa-facebook"></i></span>
+							<span><i class="fa fa-twitter"></i></span>
+							<span><i class="fa fa-instagram"></i></span>
+							<span><i class="fa fa-youtube"></i></span>
+							<span><i class="fa fa-snapchat"></i></span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-  <!---------------------- Footer mobile view hidden while in desktop view --------------------------->
+		<!---------------------- Footer mobile view hidden while in desktop view --------------------------->
 
 		<div id="footer-mobile-view">
 			<div class="container-fluid footer">
@@ -185,68 +187,49 @@
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
 						<div class="footer-social-icons">
-							<span><i class="fab fa-facebook"></i></span>
-							<span><i class="fab fa-twitter"></i></span>
-							<span><i class="fab fa-instagram"></i></span>
-							<span><i class="fab fa-youtube"></i></span>
-							<span><i class="fab fa-snapchat"></i></span>
+							<span><i class="fa fa-facebook"></i></span>
+							<span><i class="fa fa-twitter"></i></span>
+							<span><i class="fa fa-instagram"></i></span>
+							<span><i class="fa fa-youtube"></i></span>
+							<span><i class="fa fa-snapchat"></i></span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
-    <!------------------------------------------- modal --------------------------------------------->
+	<!------------------------------------------- modal --------------------------------------------->
 
-			<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
-			aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="mapModalLabel">Here is how to find us</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="mapModalLabel">Here is how to find us</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-            </div>
-					<div class="modal-body">
-						<div class="findus-modal-info">
-							<p>Bristol Crental Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
-								<p> Click on the map to find us </p>
-						</div>
-						<iframe class="map-container-inmodal"
-							src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
-							frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
-								href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe>
+				</div>
+				<div class="modal-body">
+					<div class="findus-modal-info">
+						<p>Bristol Crental Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
+							<p> Click on the map to find us </p>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					</div>
+					<iframe class="map-container-inmodal"
+						src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
+							href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
+	</div>
 
 </body>
 
-<!------------------------------------------- letter animation ----------------------------------------->
-<script>
-	var textWrapper = document.querySelector('.footer-offer');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.footer-offer .letter',
-    opacity: [0,1],
-    easing: "easeInOutQuad",
-    duration: 2250,
-    delay: (el, i) => 150 * (i+1)
-  }).add({
-    targets: '.footer-offer',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-</script>
 
 <!------------------------------------------- Slide show ------------------------------------------------>
 <script>

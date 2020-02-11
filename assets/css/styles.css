@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Carrois+Gothic|Righteous&display=swap');
 
+
 body{
     font-family: "Carrois Gothic", sans-serif; 
 
@@ -123,8 +124,7 @@ body{
     font-weight: 900;
     font-size: 3vw;
     color: red;
-    text-transform: uppercase;
-    word-wrap: break-word;
+    text-transform: uppercase;    
     text-shadow:2px 2px 20px#fff; 
 }
 
@@ -133,27 +133,14 @@ body{
     line-height: 1em;
 }
 
-.hero-text-mobile{
-    word-wrap: break-word;
-    color:red; 
-    font-size: 6vw;
-    font-weight: 100px;
-    text-transform: uppercase;
-    -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: #592E2E;
-    text-shadow:2px 2px 20px#fff; 
-}
-
 .hero-text-mobile-break{
     word-wrap: break-word;
     color:red; 
     font-size: 6vw;
-    font-weight: 100px;
     text-transform: uppercase;
-    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke: 0.8px;
     -webkit-text-stroke-color: #000000;
-    text-shadow:0px 0px 0px#fff; 
-    
+    text-shadow:0px 0px 0px#fff;  
 }
 
 
@@ -168,7 +155,6 @@ body{
 .video-inline{
     text-align: center;  
 }
-
 
 /*---------------------------------------- about the gym --------------------- */
 
@@ -323,12 +309,14 @@ body{
     text-align: center;
     overflow: hidden;
 }
+
 .map-container-inmodal-thankyou,
 .map-container-inmodal{
     border: 5px solid black;
     padding-left: 0;
     padding-right: 0;   
-    width: 20%vw;
+    width: 300px;
+    height: 300px;
 }
 
 .findus-modal-info{
@@ -336,6 +324,48 @@ body{
 }
 /*----------------------------------------Signup page--------------------- */
 
+.signup-form{
+    padding-left: 20px;
+}
+
+.signup-form label{
+    margin: 0;
+}
+
+.form-group{
+    margin: 0px;
+    width: 400PX;
+}
+
+.signup-submit-button {
+    margin-top: 7px;
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #D99F7E;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px
+} 
+
+
+.signup-submit-button:hover {
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    color: yellow;
+    text-transform: uppercase;
+}
+/*
 .signup-video{
     width: 100%;
     height: auto;    
@@ -348,20 +378,21 @@ body{
 
 .video-cantainer-form{
     text-align: left;
+    width: 100%;
+    height: auto;
+    position: absolute;     
 }
 
 .signup-form{ 
   z-index: 50;
   color: #fff;
   background-color: rgba(60,60,60,0.6);
-  max-width: 400px;
-  position: absolute;
-  left: 15%;
+  width: 400px;
+  height: 600px; 
   padding: 30px;
-  top: 15%;
- 
 } 
 
+/*
 .signup-form:hover{
   color: #fff;
   background-color: rgba(60,60,60,0.8);
@@ -507,7 +538,7 @@ body{
      padding-right: 0px;
  }
 
-
+*/
 /*--------------------------------------- Modal --------------------------*/
 .modal-body{
     text-align: center;
@@ -675,9 +706,32 @@ body{
     display: none;
 }
 
-.hero-offer-text-mobile{
-    font-size: 5vw;
+.offer-desktop{
+    display: none;
 }
+
+.form-group{
+    padding-left: 10px;
+    width: 85vw;
+}
+
+.form-check{
+    margin-left: 20px;
+    
+}
+
+.form-check label{
+    font-size: 12px;
+}
+
+.form-group label{
+    padding: 2px;
+}
+
+.signup-form{
+    padding-top: 20px;
+}
+
 }
 
 @media only screen  and (min-width: 444px) { /*tablet and desktop view*/

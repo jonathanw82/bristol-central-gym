@@ -48,72 +48,39 @@
 	<!--------------------------------------- Content ----------------------------------->
 
 	<section>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-12 signup-video-container">
-                
-					<video class="signup-video" autoplay loop muted>
-						<source src="./assets/video/NewHerovideo.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-					</video>
-
-					<form class="video-cantainer-form">
-						<div class="signup-form">
-							<h2 class="offer-text signup-offer-text">SignUp Now For The New YOU!</h2>
-
-							<div class="dropdown">
-								<button class="btn dropdown-membership-button dropdown-toggle" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Select Your Membership!
-								</button>
-								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-									<a class="dropdown-item" href="#">Gym Only</a>
-									<a class="dropdown-item" href="#">Gym & Classes</a>
-									<a class="dropdown-item" href="#">Gym, Class & Swim</a>
-								</div>
-							</div>
-
-							<label for="fname">First Name</label>
-							<input class="text-input" type="text" name="first_name" id="fname" required>
-
-							<label for="lname">Last Name</label>
-							<input class="text-input" type="text" name="last_name" id="lname" required>
-
-							<label for="email">Email Addess</label>
-							<input class="text-input" type="email" name="email" id="email" required>
-
-							<label for="phone">Telephone</label>
-							<input class="text-input" type="text" name="phone" id="phone" required>
-
-                            <label for="phone">Password</label>
-							<input class="text-input" type="password" name="password" id="password" required>
-
-							<div class="row">
-								<div class="col-sm-12 checkboxes">
-									<p>Please tick boxes if you wish to recieve infomation on new products and
-										promotions</p>
-									<div class="row">
-										<div class="col-sm-6 agree-info">
-											<p class="check-text">Agree to the terms<br> and conditions?</p>
-												<input type="checkbox" name="agree" id="agree" required>
-                                    </div>
-												<div class="col-sm-6 recieve-info">
-													<p class="check-text">Recieve infomation about new products?</p>
-													<input type="checkbox"  name="useemail" id="useemail">
-                                    </div>
-												</div>
-										</div>
-									</div>
-									<div class="signup-button">
-										<button type="submit" class="btn signup-submit-button"  data-toggle="modal" data-target="#ThankyouModal" >SignUp!</button>
-									</div>
-						</div>
-					</form>
-
-				</div>
+		<form class="signup-form">
+			<div class="form-group">
+				<label for="fname">First Name</label>
+				<input type="text" class="form-control" id="fname" aria-describedby="first-name" required>
 			</div>
-		</div>
+				<div class="form-group">
+					<label for="lname">Last Name</label>
+					<input type="text" class="form-control" id="lname" aria-describedby="last-name" required>
+			</div>
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="email" class="form-control" id="email" aria-describedby="email" required>
+			</div>
+						<div class="form-group">
+							<label for="phone">Phone</label>
+							<input type="tel" class="form-control" id="phone" aria-describedby="phone" required>
+			</div>
+							<div class="form-group">
+								<label for="password">Password</label>
+								<input type="password" class="form-control" id="password1" required>
+             </div>
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="market">
+									<label class="form-check-label" for="market">Click if do do not wish to recieve marketing</label>
+								</div>
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="t&c" required>
+									<label class="form-check-label" for="t&c">Click to accept terms and conditions</label>
+								</div>
+								<div class="signup-button">
+									<button type="submit" class="btn signup-submit-button"  data-toggle="modal" data-target="#ThankyouModal" >SignUp!</button>
+								</div>
+		</form>
 
 
 	</section>
