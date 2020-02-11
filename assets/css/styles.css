@@ -141,17 +141,19 @@ body{
     text-transform: uppercase;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #592E2E;
+    text-shadow:2px 2px 20px#fff; 
 }
 
 .hero-text-mobile-break{
     word-wrap: break-word;
-    color:white; 
+    color:red; 
     font-size: 6vw;
     font-weight: 100px;
     text-transform: uppercase;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #000000;
-    text-shadow:2px 2px 20px#fff; 
+    text-shadow:0px 0px 0px#fff; 
+    
 }
 
 
