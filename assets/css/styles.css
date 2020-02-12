@@ -365,15 +365,16 @@ body{
     color: yellow;
     text-transform: uppercase;
 }
-/*
+
 .signup-video{
-    width: 100%;
-    height: auto;    
+       
 }
 
 .signup-video-container{
     position: relative;
     text-align: center;
+    width: 100%;
+    height: auto; 
 }
 
 .video-cantainer-form{
