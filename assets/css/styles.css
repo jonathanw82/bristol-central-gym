@@ -143,21 +143,6 @@ body{
     text-shadow:0px 0px 0px#fff;  
 }
 
-
-/*---------------------------------------- Hero Video --------------------- */
-
-.hero-video{
-    height: 80px;
-    width: 50px;
-
-}
-
-.video-inline{
-    text-align: center;  
-}
-
-/*---------------------------------------- about the gym --------------------- */
-
 /*---------------------------------------- Membertship prices ---------------- */
 
 .membership-prices{
@@ -245,58 +230,67 @@ body{
     padding: 90px 90px 90px;
 }  
 /*---------------------------------------- Timetable  ----------------- */
-.class-timetable{
-    overflow:scroll;
-    padding: 20px;
+
+.class-selector{
+    width: 160px;
+    margin-top: 2px;
+    margin-bottom:2px;
+    color: #D99F7E;
+    padding-left: 2px;
+    text-align: left;
+    background-color:#36454f;
 }
 
-.inner-table tr{
-    border: 2px solid black;
+.class-selector:hover{
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    color: yellow;
+    text-transform: uppercase;
 }
 
-.inner-table td{
-    border: 2px solid black;
+.class-selecor-button-end{
+    color: #D99F7E;
+    margin: 2px;
 }
 
-.findus-info{
-   vertical-align: center;
+.class-selecor-button-end:hover{
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    color: yellow; 
 }
 
-.findus-info h2{
+.timetables-dropdown{
+    margin-top: 7px;
+    background-color:rgba(60,60,60,1);
+    border-color: #ffffff;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);  
+    font-weight: 500;
+    font-size: 16px;  
+    color: #D99F7E;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.findus-info p{
-    text-align: center;
+.timetables-dropdown{
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-transform: uppercase;
 }
 
-.pilates{
-    background-color: pink;
-}
-
-.yoga{
-    background-color: yellow;
-}
-
-.legs{
-    background-color: blue;
-}
-
-.bodypump{
-    background-color: red;
-}
-
-.absblast{
-    background-color: greenyellow;
-}
-
-.spin{
-    background-color: orange;
-}
-
-.zumba{
-    background-color: gray;
-}
 /*---------------------------------------- map -------------------------- */
 
 .map-box{
@@ -366,10 +360,6 @@ body{
     text-transform: uppercase;
 }
 
-.signup-video{
-       
-}
-
 .signup-video-container{
     position: relative;
     text-align: center;
@@ -377,20 +367,13 @@ body{
     height: auto; 
 }
 
-.video-cantainer-form{
-    text-align: left;
-    width: 100%;
-    height: auto;
-    position: absolute;     
-}
-
 .signup-form{ 
-  z-index: 50;
-  color: #fff;
-  background-color: rgba(60,60,60,0.9);
-  width: 500px;
-  height: 600px; 
-  padding: 30px;
+    z-index: 50;
+    color: #fff;
+    background-color: rgba(60,60,60,0.9);
+    width: 500px;
+    height: 600px; 
+    padding: 30px;  
 } 
 
 .dropdown-membership-button{
@@ -420,14 +403,8 @@ body{
     text-transform: uppercase;
 }
 
-
-.dropdown-menu{
-    background-color: rgba(60,60,60,0.9);
-    border: 2px solid yellow;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
-    outline-color: rgba(255, 255, 255, 0);
-    outline-offset: 15px;  
-    text-transform: uppercase;
+.dropdown-membership-select{
+    background-color:  rgba(60,60,60,0.9);
 }
 
 .dropdown-item{
@@ -435,10 +412,18 @@ body{
      font-weight: 800;
 }
 
-.dropdown-menu a:hover{
-    background-color: transparent;
-    color:#D95436;
+.dropdown-item:hover{
+ color: #D95436;;
 }
+
+.dropdown-membership-select:hover {
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-transform: uppercase;
+}
+
 .form-group input{
     background-color: transparent;
     border: 1px solid rgb(230, 230, 247);
@@ -752,6 +737,9 @@ body{
     margin-left: 16px;
 }
 
+.signup-video-container{
+    display: none;
+}
 }
 
 @media only screen  and (min-width: 444px) { /*tablet and desktop view*/

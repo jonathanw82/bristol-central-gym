@@ -48,58 +48,72 @@
 	<!--------------------------------------- Content ----------------------------------->
 
 	<section>
-		<div class="col-sm-12 signup-video-container">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 signup-video-container">
+                
+					<video class="signup-video" autoplay loop muted>
+						<source src="./assets/video/NewHerovideo.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
 
-			<video class="signup-video" autoplay loop muted>
-				<source src="./assets/video/NewHerovideo.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			</video>
-		</div>
-		<form class="signup-form">
-			<div class="dropdown">
-				<button class="btn dropdown-membership-button dropdown-toggle" type="button"
+					<form class="video-cantainer-form">
+						<div class="signup-form">
+							<h2 class="offer-text signup-offer-text">SignUp Now For The New YOU!</h2>
+
+							<div class="dropdown">
+								<button class="btn dropdown-membership-button dropdown-toggle" type="button"
 									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
 									aria-expanded="false">
 									Select Your Membership!
 								</button>
-				<div class="dropdown-menu dropdown-membership-select" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item" href="#">Gym Only</a>
-					<a class="dropdown-item" href="#">Gym & Classes</a>
-					<a class="dropdown-item" href="#">Gym, Class & Swim</a>
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Gym Only</a>
+									<a class="dropdown-item" href="#">Gym & Classes</a>
+									<a class="dropdown-item" href="#">Gym, Class & Swim</a>
+								</div>
+							</div>
+
+							<label for="fname">First Name</label>
+							<input class="text-input" type="text" name="first_name" id="fname" required>
+
+							<label for="lname">Last Name</label>
+							<input class="text-input" type="text" name="last_name" id="lname" required>
+
+							<label for="email">Email Addess</label>
+							<input class="text-input" type="email" name="email" id="email" required>
+
+							<label for="phone">Telephone</label>
+							<input class="text-input" type="text" name="phone" id="phone" required>
+
+                            <label for="phone">Password</label>
+							<input class="text-input" type="password" name="password" id="password" required>
+
+							<div class="row">
+								<div class="col-sm-12 checkboxes">
+									<p>Please tick boxes if you wish to recieve infomation on new products and
+										promotions</p>
+									<div class="row">
+										<div class="col-sm-6 agree-info">
+											<p class="check-text">Agree to the terms<br> and conditions?</p>
+												<input type="checkbox" name="agree" id="agree" required>
+                                    </div>
+												<div class="col-sm-6 recieve-info">
+													<p class="check-text">Recieve infomation about new products?</p>
+													<input type="checkbox"  name="useemail" id="useemail">
+                                    </div>
+												</div>
+										</div>
+									</div>
+									<div class="signup-button">
+										<button type="submit" class="btn signup-submit-button"  data-toggle="modal" data-target="#ThankyouModal" >SignUp!</button>
+									</div>
+						</div>
+					</form>
+
 				</div>
 			</div>
-			<div class="form-group">
-				<label for="fname">First Name</label>
-				<input type="text" class="form-control" id="fname" aria-describedby="first-name" required>
-			</div>
-				<div class="form-group">
-					<label for="lname">Last Name</label>
-					<input type="text" class="form-control" id="lname" aria-describedby="last-name" required>
-			</div>
-					<div class="form-group">
-						<label for="email">Email address</label>
-						<input type="email" class="form-control" id="email" aria-describedby="email" required>
-			</div>
-						<div class="form-group">
-							<label for="phone">Phone</label>
-							<input type="tel" class="form-control" id="phone" aria-describedby="phone" required>
-			</div>
-							<div class="form-group">
-								<label for="password">Password</label>
-								<input type="password" class="form-control" id="password1" required>
-             </div>
-								<div class="form-check">
-									<input type="checkbox" class="form-check-input" id="market" checked>
-									<label class="form-check-label" for="market">UnClick if you do not wish to recieve marketing</label>
-								</div>
-								<div class="form-check">
-									<input type="checkbox" class="form-check-input" id="t&c" required>
-									<label class="form-check-label" for="t&c">Click to accept terms and conditions</label>
-								</div>
-								<div class="signup-button">
-									<button type="submit" class="btn signup-submit-button"  data-toggle="modal" data-target="#ThankyouModal" >SignUp!</button>
-								</div>
-		</form>
+		</div>
 
 
 	</section>
@@ -116,6 +130,7 @@
 					</div>
 					<div class="col-sm-4 join-now">
 						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
+						<a class="footer-membership-link" href="signup.html"><span>SignUp!</span></a>
 					</div>
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
@@ -138,6 +153,7 @@
 				<div class="row">
 					<div class="col-sm-4 join-now">
 						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
+						<a class="footer-membership-link" href="signup.html"><span>SignUp!</span></a>
 					</div>
 					<div class="col-sm-4 footer-address-line">
 						<h4>Address:</h4>
@@ -177,9 +193,8 @@
 							<p> Click on the map to find us </p>
 					</div>
 					<iframe class="map-container-inmodal"
-						src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
-						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
-							href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe>
+							src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+							></iframe>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -207,7 +222,8 @@
 							<p> Click on the map to find us </p>
 					</div>
 					<iframe class="map-container-inmodal-thankyou"
-						src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"></iframe>
+							src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+							></iframe>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

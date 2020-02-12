@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 
-	<title>Bristol Central Gym | Sign UP</title>
+	<title>Bristol Central Gym | Timetables</title>
 
 </head>
 
@@ -32,13 +32,13 @@
 				<li class="nav-item nav-info ">
 					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item nav-info ">
+				<li class="nav-item nav-info active">
 					<a class="nav-link" href="timetables.html">Timetables</a>
 				</li>
 				<li class="nav-item nav-info active">
 					<a class="nav-link" data-toggle="modal" data-target="#mapModal">Find-us</a>
 				</li>
-				<li class="nav-item membership active">
+				<li class="nav-item membership ">
 					<a class="nav-link" href="signup.html"><span>SignUp</span></a>
 				</li>
 			</ul>
@@ -48,54 +48,98 @@
 	<!--------------------------------------- Content ----------------------------------->
 
 	<section>
-		<form class="signup-form">
-							<div class="dropdown">
-								<button class="btn dropdown-membership-button dropdown-toggle" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Select Your Membership!
-								</button>
-								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-									<a class="dropdown-item" href="#">Gym Only</a>
-									<a class="dropdown-item" href="#">Gym & Classes</a>
-									<a class="dropdown-item" href="#">Gym, Class & Swim</a>
-								</div>
-							</div>
-			<div class="form-group">
-				<label for="fname">First Name</label>
-				<input type="text" class="form-control" id="fname" aria-describedby="first-name" required>
-			</div>
-				<div class="form-group">
-					<label for="lname">Last Name</label>
-					<input type="text" class="form-control" id="lname" aria-describedby="last-name" required>
-			</div>
-					<div class="form-group">
-						<label for="email">Email address</label>
-						<input type="email" class="form-control" id="email" aria-describedby="email" required>
-			</div>
-						<div class="form-group">
-							<label for="phone">Phone</label>
-							<input type="tel" class="form-control" id="phone" aria-describedby="phone" required>
-			</div>
-							<div class="form-group">
-								<label for="password">Password</label>
-								<input type="password" class="form-control" id="password1" required>
-             </div>
-								<div class="form-check">
-									<input type="checkbox" class="form-check-input" id="market" checked>
-									<label class="form-check-label" for="market">UnClick if you do not wish to recieve marketing</label>
-								</div>
-								<div class="form-check">
-									<input type="checkbox" class="form-check-input" id="t&c" required>
-									<label class="form-check-label" for="t&c">Click to accept terms and conditions</label>
-								</div>
-								<div class="signup-button">
-									<button type="submit" class="btn signup-submit-button"  data-toggle="modal" data-target="#ThankyouModal" >SignUp!</button>
-								</div>
-		</form>
 
+		<section>
+
+			<div class="class-timetable">
+				<table class="table inner-table">
+					<thead class="thead-dark">
+						<tr>
+							<th scope="col">Monday</th>
+							<th scope="col">Tuesday</th>
+							<th scope="col">Wednesday</th>
+							<th scope="col">Thursday</th>
+							<th scope="col">Friday</th>
+							<th scope="col">Saturday</th>
+							<th scope="col">Sunday</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+						<tr>
+							<td class="pilates"><span><h6>Pilates</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="legs"><span><h6>Legs Bums and Tumbs</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="spin"><span><h6>Spin</h6><p>6:30-7:30</p>Vicki</span></td>
+							<td class="bodypump"><span><h6>BodyPump</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="absblast"><span><h6>Abs Blast</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="yoga"><span><h6>Yoga</h6><p>6:30-7:30</p>Kevin</span></td>
+							<td class="zumba"><span><h6>Zumba</h6><p>6:30-7:30</p>Kevin</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<div class="container-fluid map-box">
+			<div class="row ">
+				<div class="col-sm-6 findus-info">
+					<h2>How to find us</h2>
+					<p>We can be found next to the river in the ciry center</p>
+				</div>
+				<div class="col-sm-6 map-container-inline">
+					<iframe class="map-container"
+							src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+							></iframe>
+				</div>
+			</div>
+		</div>
 
 	</section>
+
 
 	<!--------------------------------------- Footer ------------------------------------>
 	<footer>
@@ -109,6 +153,7 @@
 					</div>
 					<div class="col-sm-4 join-now">
 						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
+						<a class="footer-membership-link" href="signup.html"><span>SignUp!</span></a>
 					</div>
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
@@ -131,6 +176,7 @@
 				<div class="row">
 					<div class="col-sm-4 join-now">
 						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
+						<a class="footer-membership-link" href="signup.html"><span>SignUp!</span></a>
 					</div>
 					<div class="col-sm-4 footer-address-line">
 						<h4>Address:</h4>
@@ -151,14 +197,13 @@
 			</div>
 		</div>
 	</footer>
-
-	<!------------------------------------------- modal  map-------------------------->
+	<!------------------------------------------- modal --------------------------------------------->
 
 	<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
 		aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-				<div class="modal-header-map">
+				<div class="modal-header">
 					<h5 class="modal-title" id="mapModalLabel">Here is how to find us</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
@@ -181,38 +226,11 @@
 		</div>
 	</div>
 
-	<!------------------------------------------- modal thank you-------------------------->
-
-	<div class="modal fade" id="ThankyouModal" tabindex="-1" role="dialog" aria-labelledby="ThankyouModalLabel"
-		aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header-thankyou">
-					<h5 class="modal-title" id="ThankyouModalLabel">Thank you for Signing Up!</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-				</div>
-				<div class="modal-body">
-					<div class="thankYou-modal-info">
-						<p>Your Journey has just started, we will be with you every step of the way!</p>
-						<p>Bristol Crental Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
-							<p> Click on the map to find us </p>
-					</div>
-					<iframe class="map-container-inmodal-thankyou"
-							src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
-							></iframe>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
 </body>
 
 
-<!------------------------------------------- Slide show -------------------------------->
+
+<!------------------------------------------- Slide show ------------------------------------------------>
 <script>
 	var myIndex = 0;
         carousel();
