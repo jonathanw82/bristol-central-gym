@@ -49,6 +49,18 @@
 
 	<section>
 		<form class="signup-form">
+							<div class="dropdown">
+								<button class="btn dropdown-membership-button dropdown-toggle" type="button"
+									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false">
+									Select Your Membership!
+								</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Gym Only</a>
+									<a class="dropdown-item" href="#">Gym & Classes</a>
+									<a class="dropdown-item" href="#">Gym, Class & Swim</a>
+								</div>
+							</div>
 			<div class="form-group">
 				<label for="fname">First Name</label>
 				<input type="text" class="form-control" id="fname" aria-describedby="first-name" required>
@@ -70,8 +82,8 @@
 								<input type="password" class="form-control" id="password1" required>
              </div>
 								<div class="form-check">
-									<input type="checkbox" class="form-check-input" id="market">
-									<label class="form-check-label" for="market">Click if do do not wish to recieve marketing</label>
+									<input type="checkbox" class="form-check-input" id="market" checked>
+									<label class="form-check-label" for="market">UnClick if you do not wish to recieve marketing</label>
 								</div>
 								<div class="form-check">
 									<input type="checkbox" class="form-check-input" id="t&c" required>
@@ -97,7 +109,6 @@
 					</div>
 					<div class="col-sm-4 join-now">
 						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
-						<a class="footer-membership-link" href="signup.html"><span>SignUp!</span></a>
 					</div>
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
@@ -120,7 +131,6 @@
 				<div class="row">
 					<div class="col-sm-4 join-now">
 						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
-						<a class="footer-membership-link" href="signup.html"><span>SignUp!</span></a>
 					</div>
 					<div class="col-sm-4 footer-address-line">
 						<h4>Address:</h4>
@@ -190,9 +200,8 @@
 							<p> Click on the map to find us </p>
 					</div>
 					<iframe class="map-container-inmodal-thankyou"
-						src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
-						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
-							href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe>
+							src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+							></iframe>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

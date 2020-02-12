@@ -338,7 +338,7 @@ body{
 }
 
 .signup-submit-button {
-    margin-top: 7px;
+    margin-top: 10px;
     background-color: transparent;
     border-color: #ffffff;
     color: #D99F7E;
@@ -387,11 +387,79 @@ body{
 .signup-form{ 
   z-index: 50;
   color: #fff;
-  background-color: rgba(60,60,60,0.6);
-  width: 400px;
+  background-color: rgba(60,60,60,0.9);
+  width: 500px;
   height: 600px; 
   padding: 30px;
 } 
+
+.dropdown-membership-button{
+    margin-top: 7px;
+    background-color: transparent;
+    border-color: #ffffff;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);  
+    font-weight: 500;
+    font-size: 16px;  
+    color: #D99F7E;
+    margin-bottom: 10px;
+}
+
+.dropdown-membership-button:hover {
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    color: yellow;
+    text-transform: uppercase;
+}
+
+
+.dropdown-menu{
+    background-color: rgba(60,60,60,0.9);
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;  
+    text-transform: uppercase;
+}
+
+.dropdown-item{
+     color: #D99F7E;
+     font-weight: 800;
+}
+
+.dropdown-menu a:hover{
+    background-color: transparent;
+    color:#D95436;
+}
+.form-group input{
+    background-color: transparent;
+    border: 1px solid rgb(230, 230, 247);
+    color: white;
+}
+
+.form-group input:hover{
+ border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+
+.form-group label{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    color: #D99F7E;
+}
+
 
 /*
 .signup-form:hover{
@@ -404,7 +472,21 @@ body{
   top: 15%;
 } 
 
+.form-group input {
+  background-color: transparent;
+  color: #fafafa;
+ 
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
 
+.from-group input:hover{{
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;   
+}
 .signup-offer-text{
     font-weight: 600;
     font-size: 36px;
@@ -439,82 +521,6 @@ body{
     text-align: center;
 }
 
-.signup-submit-button {
-    margin-top: 7px;
-    background-color: transparent;
-    border-color: #ffffff;
-    color: #D99F7E;
-    border: 0 solid;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-    outline: 1px solid;
-    outline-color: rgba(255, 255, 255, .5);
-    outline-offset: 0px;
-    text-shadow: none;
-    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-    width: 100px;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 2px
-} 
-
-.signup-submit-button:hover {
-    border: 2px solid yellow;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
-    outline-color: rgba(255, 255, 255, 0);
-    outline-offset: 15px;
-    text-shadow: 1px 1px 2px #427388; 
-    color: yellow;
-    text-transform: uppercase;
-}
-
-.dropdown{
-    text-align: center;
-}
-
-.dropdown-membership-button{
-    margin-top: 7px;
-    background-color: transparent;
-    border-color: #ffffff;
-    border: 0 solid;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-    outline: 1px solid;
-    outline-color: rgba(255, 255, 255, .5);
-    outline-offset: 0px;
-    text-shadow: none;
-    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);  
-    font-weight: 500;
-    font-size: 16px;  
-    color: #D99F7E;
-}
-
-.dropdown-membership-button:hover {
-    border: 2px solid yellow;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
-    outline-color: rgba(255, 255, 255, 0);
-    outline-offset: 15px;
-    text-shadow: 1px 1px 2px #427388; 
-    color: yellow;
-    text-transform: uppercase;
-}
-
-.dropdown-menu{
-    background-color: rgba(60,60,60,0.9);
-    border: 2px solid yellow;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
-    outline-color: rgba(255, 255, 255, 0);
-    outline-offset: 15px;  
-    text-transform: uppercase;
-}
-
-.dropdown-item{
-     color: #D99F7E;
-     font-weight: 800;
-}
-
-.dropdown-menu a:hover{
-    background-color: transparent;
-    color:#D95436;
-}
 
 .signup-form p {
    font-size: 10px;
@@ -729,8 +735,21 @@ body{
     padding: 2px;
 }
 
+.signup-button{
+    text-align: center;
+    position: relative;
+}
+
 .signup-form{
     padding-top: 20px;
+    padding-left: 25px;
+    width: 100vw;
+    height: auto;
+    
+}
+
+.dropdown-membership-button{
+    margin-left: 16px;
 }
 
 }
@@ -767,7 +786,9 @@ body{
 .hero-text-mobile{
     display: none;
 }
+
 }
+
 
 @media only screen  and (max-width: 1000px){
 
