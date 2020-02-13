@@ -21,7 +21,8 @@
 
 <body>
 
-	<!--                             Navigation and header                              -->
+	<!--====================================== Navigation and header ====================================-->
+
 	<nav class="navbar navbar-expand-lg nav-bg-color sticky-top ">
 		<h1 class="logo">Bristol Central Gym</h1>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +46,7 @@
 		</div>
 	</nav>
 
-	<!--------------------------------------- Content ----------------------------------->
+	<!--============================================ Content =============================================-->
 
 	<section>
 
@@ -91,7 +92,7 @@
 			</div>
 		</div>
 
-		<!--------------------------------------- Membership prices ----------------------------------->
+		<!--========================================= Membership Prices =====================================-->
 
 		<div class="container membership-prices">
 			<div class="row">
@@ -135,7 +136,7 @@
 			</div>
 		</div>
 
-		<!--------------------------------------- facilities rundown desktop view --------------------------->
+		<!--================================= Facilities rundown desktop view ============================-->
 
 		<div class="container-fluid about-the-gym-desktop">
 			<div class="row">
@@ -184,7 +185,7 @@
 			</div>
 		</div>
 
-		<!--------------------------------------- facilities rundown mobile view ------------------------------->
+		<!--======================================== facilities rundown mobile view ==================================-->
 
 		<div class="container-fluid about-the-gym-mobile">
 			<div class="row">
@@ -233,12 +234,12 @@
 			</div>
 		</div>
 		<div class="row">
-        <div class="col-sm-12 findus-landing-button-position">
-			<button type="button" class="btn findus-landing-button" data-toggle="modal" data-target="#mapModal">
+			<div class="col-sm-12 findus-landing-button-position">
+				<button type="button" class="btn findus-landing-button" data-toggle="modal" data-target="#mapModal">
                 How to Find us!
             </button>
+			</div>
 		</div>
-        </div>
 		<!-- Modal -->
 		<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
 			aria-hidden="true">
@@ -247,12 +248,11 @@
 					<div class="modal-header">
 						<h5 class="modal-title" id="mapModalLabel">Here is how to find us</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                        <span aria-hidden="true">&times;</span></button>
 					</div>
 					<div class="modal-body">
 						<div class="findus-modal-info">
-							<p>Bristol Crental Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
+							<p>Bristol Central Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
 								<p> Click on the map to find us </p>
 						</div>
 						<iframe class="map-container-inmodal"
@@ -267,7 +267,7 @@
 	</section>
 
 
-	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	<!--================================================= Footer ==============================================-->
 	<footer>
 		<div id="footer-desktop-view">
 			<!--Footer desktop view hidden while in mobile view -->
@@ -284,11 +284,11 @@
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
 						<div class="footer-social-icons">
-							<span><i class="fa fa-facebook"></i></span>
-							<span><i class="fa fa-twitter"></i></span>
-							<span><i class="fa fa-instagram"></i></span>
-							<span><i class="fa fa-youtube"></i></span>
-							<span><i class="fa fa-snapchat"></i></span>
+							<span><a href="https://www.facebook.com/" class="fa fa-facebook"></a></span>
+							<span><a href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a></span>
+							<span><a href="https://www.instagram.com/" class="fa fa-instagram"></a></span>
+							<span><a href="https://www.youtube.com/" class="fa fa-youtube"></a></span>
+							<span><a href="https://www.snapchat.com/l/en-gb/" class="fa fa-snapchat"></a></span>
 						</div>
 					</div>
 				</div>
@@ -296,7 +296,7 @@
 		</div>
 
 
-		<!---------------------- Footer mobile view hidden while in desktop view --------------------------->
+		<!--====================== Footer mobile view hidden while in desktop view ================================-->
 
 		<div id="footer-mobile-view">
 
@@ -314,11 +314,11 @@
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
 						<div class="footer-social-icons">
-							<span><i class="fa fa-facebook"></i></span>
-							<span><i class="fa fa-twitter"></i></span>
-							<span><i class="fa fa-instagram"></i></span>
-							<span><i class="fa fa-youtube"></i></span>
-							<span><i class="fa fa-snapchat"></i></span>
+						<span><a href="https://www.facebook.com/" class="fa fa-facebook"></a></span>
+							<span><a href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a></span>
+							<span><a href="https://www.instagram.com/" class="fa fa-instagram"></a></span>
+							<span><a href="https://www.youtube.com/" class="fa fa-youtube"></a></span>
+							<span><a href="https://www.snapchat.com/l/en-gb/" class="fa fa-snapchat"></a></span>
 						</div>
 					</div>
 				</div>
@@ -330,7 +330,7 @@
 
 
 
-	<!------------------------------------------- Slide show -------------------------------->
+	<!--======================================= JavaScript ==========================================-->
 	<script>
 		var myIndex = 0;
         carousel();
@@ -374,7 +374,6 @@ anime.timeline({loop: true})
         
 	</script>
 
-
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 	</script>
@@ -385,8 +384,6 @@ anime.timeline({loop: true})
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
 
-
 </body>
-
 
 </html>

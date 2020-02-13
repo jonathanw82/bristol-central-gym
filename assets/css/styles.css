@@ -560,10 +560,10 @@ body{
     padding-left: 70px;
 }
 
-.thankYou-modal-info{
+.thankYou-modal-info p{
     text-align: left;
     word-wrap: break-word;
-    color: red;
+    color:black;
 }
 
 /*---------------------------------------- Footer ------------------------- */
@@ -602,8 +602,9 @@ body{
     cursor: pointer;   
 }
 
-.footer-social-icons i:hover {
+.footer-social-icons a:hover {
     color:#D95436; 
+    text-decoration: none;
 }
 
 .join-now{
@@ -753,7 +754,7 @@ body{
 }
 
 .hero-heading-text{
-   display: none;
+    display: none;
 }
 
 .hero-text p{
@@ -861,7 +862,7 @@ body{
 
 .about-the-gym-mobile,
  #footer-mobile-view{
-     display: none;
+    display: none;
  }  
 
 .modal-header-map{

@@ -21,7 +21,8 @@
 </head>
 
 <body>
-	<!-------------------------------------- Navigation and header----------------------->
+	<!--============================================= Navigation and header ===================================-->
+
 	<nav class="navbar navbar-expand-lg nav-bg-color sticky-top ">
 		<h1 class="logo">Bristol Central Gym</h1>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +46,7 @@
 		</div>
 	</nav>
 
-	<!--------------------------------------- Content ----------------------------------->
+	<!--====================================================== Content  ===========================================-->
 
 	<section>
 		<form class="signup-form">
@@ -64,11 +65,11 @@
 			</div>
 			<div class="form-group">
 				<label for="fname">First Name</label>
-				<input type="text" class="form-control" id="fname" aria-describedby="first-name" required>
+				<input type="text" class="form-control" id="fname" aria-describedby="fname" required>
 			</div>
 				<div class="form-group">
 					<label for="lname">Last Name</label>
-					<input type="text" class="form-control" id="lname" aria-describedby="last-name" required>
+					<input type="text" class="form-control" id="lname" aria-describedby="lname" required>
 			    </div>
 					<div class="form-group">
 						<label for="email">Email address</label>
@@ -80,7 +81,7 @@
 			            </div>
 							<div class="form-group">
 								<label for="password">Password</label>
-								<input type="password" class="form-control" id="password1" required>
+								<input type="password" class="form-control" id="password" required>
                              </div>
 								<div class="form-check">
 									<input type="checkbox" class="form-check-input" id="market" checked>
@@ -100,11 +101,12 @@
 									</video>
 								</div>
 								<div class="signup-background-image">
-							</div>
-		 </form>
+								</div>
+		</form>
 	</section>
 
-	<!--------------------------------------- Footer ------------------------------------>
+	<!--============================================= Footer ==============================================-->
+
 	<footer>
 		<div id="footer-desktop-view">
 			<!--Footer desktop view hidden while in mobile view -->
@@ -120,18 +122,18 @@
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
 						<div class="footer-social-icons">
-							<span><i class="fa fa-facebook"></i></span>
-							<span><i class="fa fa-twitter"></i></span>
-							<span><i class="fa fa-instagram"></i></span>
-							<span><i class="fa fa-youtube"></i></span>
-							<span><i class="fa fa-snapchat"></i></span>
+							<span><a href="https://www.facebook.com/" class="fa fa-facebook"></a></span>
+							<span><a href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a></span>
+							<span><a href="https://www.instagram.com/" class="fa fa-instagram"></a></span>
+							<span><a href="https://www.youtube.com/" class="fa fa-youtube"></a></span>
+							<span><a href="https://www.snapchat.com/l/en-gb/" class="fa fa-snapchat"></a></span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!---------------------- Footer mobile view hidden while in desktop view --------------------------->
+		<!--============================= Footer mobile view hidden while in desktop view =============================-->
 
 		<div id="footer-mobile-view">
 			<div class="container-fluid footer">
@@ -147,11 +149,11 @@
 					<div class="col-sm-4">
 						<h4 class="social-heading">Social:</h4>
 						<div class="footer-social-icons">
-							<span><i class="fa fa-facebook"></i></span>
-							<span><i class="fa fa-twitter"></i></span>
-							<span><i class="fa fa-instagram"></i></span>
-							<span><i class="fa fa-youtube"></i></span>
-							<span><i class="fa fa-snapchat"></i></span>
+							<span><a href="https://www.facebook.com/" class="fa fa-facebook"></a></span>
+							<span><a href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a></span>
+							<span><a href="https://www.instagram.com/" class="fa fa-instagram"></a></span>
+							<span><a href="https://www.youtube.com/" class="fa fa-youtube"></a></span>
+							<span><a href="https://www.snapchat.com/l/en-gb/" class="fa fa-snapchat"></a></span>
 						</div>
 					</div>
 				</div>
@@ -159,7 +161,7 @@
 		</div>
 	</footer>
 
-	<!------------------------------------------- modal  map-------------------------->
+	<!--================================================ modal  map ========================================-->
 
 	<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
 		aria-hidden="true">
@@ -172,22 +174,21 @@
 				</div>
 				<div class="modal-body">
 					<div class="findus-modal-info">
-						<p>Bristol Crental Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
+						<p>Bristol Central Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
 							<p> Click on the map to find us </p>
 					</div>
 					<iframe class="map-container-inmodal"
-						src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
-						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
-							href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe>
+						src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"></iframe>
 				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary findus-close-button" data-dismiss="modal">Close</button>
-				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary findus-close-button" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
 
-	<!------------------------------------------- modal thank you-------------------------->
+
+	<!--================================================ modal thank you =====================================-->
 
 	<div class="modal fade" id="ThankyouModal" tabindex="-1" role="dialog" aria-labelledby="ThankyouModalLabel"
 		aria-hidden="true">
@@ -213,57 +214,17 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+
 </body>
-
-
-<!------------------------------------------- JavaScript -------------------------------->
-<script>
-	var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}    
-            x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, 9000);    
-            }
-</script>
-
-<script>
-	var textWrapper = document.querySelector('.offer-text');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: true})
-  .add({
-    targets: '.offer-text .letter',
-    scale: [4,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 2000,
-    delay: (el, i) => 70*i
-  }).add({
-    targets: '.ml2',
-    opacity: 0,
-    duration: 5000,
-    easing: "easeOutExpo",
-    delay: 100
-  });
-</script>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
 
 </html>
