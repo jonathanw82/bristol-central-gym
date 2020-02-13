@@ -64,20 +64,20 @@ body{
 }
 
 .pic-01{
-     background-image: url("../images/imageslide/one.jpg");
+    background-image: url("../images/imageslide/one.jpg");
 }
 
 .pic-02{
-     background-image: url("../images/imageslide/two.jpg");
+    background-image: url("../images/imageslide/two.jpg");
 }
 
 .pic-03{
-     background-image: url("../images/imageslide/three.jpg");
+    background-image: url("../images/imageslide/three.jpg");
 }
 
 
 .pic-04{
-     background-image: url("../images/imageslide/four.jpg");
+    background-image: url("../images/imageslide/four.jpg");
 }
 
 .carousel-height {
@@ -146,7 +146,7 @@ body{
 /*---------------------------------------- Membertship prices ---------------- */
 
 .membership-prices{
-  text-align: center;
+    text-align: center;
 }
 
 .about-the-gym{
@@ -200,8 +200,8 @@ body{
 
 .gym-info{
     position: relative;
-     padding: 150px 90px 90px 90px;
-     font-size: 16px;
+    padding: 150px 90px 90px 90px;
+    font-size: 16px;
 }
 
 .gym-info h4{
@@ -218,8 +218,8 @@ body{
 
 .classes-info{
     position: relative;
-     padding: 150px 90px 90px 90px;
-     font-size: 16px;
+    padding: 150px 90px 90px 90px;
+    font-size: 16px;
 }
 
 .trainers-info{
@@ -406,8 +406,8 @@ body{
 
 .signup-form{
     padding-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 85px;
     margin-left: 150px;
 }
 
@@ -438,7 +438,6 @@ body{
     letter-spacing: 2px
 } 
 
-
 .signup-submit-button:hover {
     border: 2px solid yellow;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
@@ -451,7 +450,7 @@ body{
 
 .signup-video-container{
     position: absolute;
-    top: 0;
+    top: 52px;
     left: 0;
     z-index: -1;
     text-align: center;
@@ -461,8 +460,11 @@ body{
     width: 90vw;
     height:auto;
     overflow: hidden;
-    
-    
+}
+
+.signup-form h2{
+    text-transform: uppercase;
+    color: #D95436;
 }
 
 .signup-form{ 
@@ -506,12 +508,12 @@ body{
 }
 
 .dropdown-item{
-     color: #D99F7E;
-     font-weight: 800;
+    color: #D99F7E;
+    font-weight: 800;
 }
 
 .dropdown-item:hover{
- color: #D95436;;
+    color: #D95436;;
 }
 
 .dropdown-membership-select:hover {
@@ -529,7 +531,7 @@ body{
 }
 
 .form-group input:hover{
- border: 2px solid yellow;
+    border: 2px solid yellow;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 15px;
@@ -544,6 +546,7 @@ body{
 }
 
 /*--------------------------------------- Modal --------------------------*/
+
 .modal-body{
     text-align: center;
 }
@@ -563,8 +566,6 @@ body{
     color: red;
 }
 
-
-
 /*---------------------------------------- Footer ------------------------- */
 
 .footer{
@@ -582,8 +583,7 @@ body{
 .footer h4{   
     padding-top: 0px;
     margin-bottom: 2px;
-    margin-top: 2px;
-   
+    margin-top: 2px;  
 }
 
 .footer-offer{
@@ -591,7 +591,7 @@ body{
 }
 
 .social-heading{
-     text-align: right;
+    text-align: right;
     padding-right: 200px;
 }
 
@@ -599,8 +599,7 @@ body{
     text-align: right;
     font-size: 20px;
     letter-spacing: 5px;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 .footer-social-icons i:hover {
@@ -643,6 +642,31 @@ body{
     margin-bottom: 100px;
 }
 
+.signup-form{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-video-container{
+    display: none;
+}
+
+.signup-background-image{
+    background-image: url("../images/gymkit.jpg");
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+}
+
 
 }
 
@@ -671,13 +695,13 @@ body{
 }
 
 #mobile{
-       display: none;
+    display: none;
 }
 
 .footer-social-icons{
-     letter-spacing: 2px;
-     margin-bottom: 10px;
-     text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .footer h4 {
@@ -751,8 +775,7 @@ body{
 }
 
 .form-check{
-    margin-left: 20px;
-    
+    margin-left: 20px;   
 }
 
 .form-check label{
@@ -772,11 +795,16 @@ body{
     padding-top: 20px;
     padding-left: 25px;
     width: 100vw;
-    height: auto;  
+    height: auto; 
+    margin-left: 0px; 
+}
+
+.signup-form h2{
+    text-align: center;
 }
 
 .dropdown-membership-button{
-    margin-left: 16px;
+    margin-left: 70px;
 }
 
 .signup-video-container{
