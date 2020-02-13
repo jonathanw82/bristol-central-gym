@@ -3,7 +3,7 @@
 
 body{
     font-family: "Carrois Gothic", sans-serif; 
-
+    background-color:#f9f9f9;
 }
 
 .uppercase{
@@ -122,7 +122,7 @@ body{
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #592E2E;
     font-weight: 900;
-    font-size: 3vw;
+    font-size: 4vw;
     color: red;
     text-transform: uppercase;    
     text-shadow:2px 2px 20px#fff; 
@@ -156,6 +156,9 @@ body{
 .about-header{
     background-color: #36454f;
     margin-bottom: 30px;
+    color:  #D99F7E;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .about-the-gym h2{
@@ -197,13 +200,33 @@ body{
 
 .gym-info{
     position: relative;
-    padding: 90px 90px 90px;
+     padding: 150px 90px 90px 90px;
+     font-size: 16px;
+}
+
+.gym-info h4{
+    font-weight: 500;
+}
+
+.classes-info h4{
+    font-weight: 500;
+}
+
+.trainers-info h4{
+    font-weight: 500;
 }
 
 .classes-info{
     position: relative;
-    padding: 90px 90px 90px;
+     padding: 150px 90px 90px 90px;
+     font-size: 16px;
 }
+
+.trainers-info{
+    position: relative;
+    padding: 150px 90px 90px 90px; 
+    font-size: 16px;
+}  
 
 .class-info-link{
     text-transform: uppercase;
@@ -225,10 +248,7 @@ body{
     background-color: #36454f;
 }
 
-.trainers-info{
-    position: relative;
-    padding: 90px 90px 90px;
-}  
+
 /*---------------------------------------- Timetable  ----------------- */
 
 .class-selector{
@@ -315,6 +335,52 @@ body{
 
 .findus-modal-info{
     display: inline-block;
+}
+/*
+.findus-landing-button{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#D99F7E;
+    border: 2px solid #D99F7E;
+    border-radius: 2px;
+    padding: 3px;
+    padding-top: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+
+.findus-landing-button:hover{
+    color:yellow;
+    border-color: #D95436;
+    background-color: #36454f;
+}
+*/
+.findus-landing-button{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#D99F7E;
+    border: 2px solid #D99F7E;
+    border-radius: 2px;
+    padding: 4px 3px 2px 2px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+.findus-landing-button:hover{
+    color:yellow;
+    border-color: #D95436;
+    background-color: #36454f;
+}
+
+.findus-landing-button-position{
+    text-align: center;
 }
 /*----------------------------------------Signup page--------------------- */
 
@@ -688,6 +754,7 @@ body{
 .membership-prices{
     padding-left: 30px;
     padding-right: 30px;
+    background-color:#f9f9f9
 }
 
 .hero-heading-text{
@@ -696,6 +763,11 @@ body{
 
 .hero-text p{
     display: none;
+}
+
+
+.hero-offer-text {
+    font-size: 5vw;
 }
 
 .offer-desktop{
