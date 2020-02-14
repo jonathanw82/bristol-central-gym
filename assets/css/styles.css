@@ -4,6 +4,7 @@
 body{
     font-family: "Carrois Gothic", sans-serif; 
     background-color:#f9f9f9;
+    overflow: hidden;
 }
 
 .uppercase{
@@ -147,7 +148,10 @@ body{
 
 .membership-prices{
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .about-the-gym{
     text-align: center;
@@ -159,6 +163,10 @@ body{
     color:  #D99F7E;
     text-transform: uppercase;
     text-align: center;
+}
+.about-header h2{
+    margin-bottom: 30px;
+    padding-top: 20px;
 }
 
 .about-the-gym h2{
@@ -176,6 +184,19 @@ body{
     background-position: center center;
     border-radius: 70px;
     border-style: ridge;
+}
+
+.gym-kit-row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.personal-trainer-row{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.findus-landing-button-row{
+    margin-bottom: 20px;
 }
 
 .studio-classes-image{
@@ -331,7 +352,7 @@ body{
     transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);  
     font-size: 16px;  
     color:#D95436;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     text-align: center;
     width: 50vw;
 }
@@ -404,12 +425,20 @@ body{
 }
 /*----------------------------------------Signup page--------------------- */
 
-.signup-form{
-    padding-left: 20px;
+
+   
+.signup-form{ 
+    z-index: 50;
+    color: #fff;
+    background-color: rgba(60,60,60,0.9);
+    width: 500px;
+    height: 600px; 
+    padding: 30px; 
     margin-top: 70px;
     margin-bottom: 85px;
-    margin-left: 150px;
-}
+    margin-left: 500px;
+} 
+
 
 .signup-form label{
     margin: 0;
@@ -448,33 +477,25 @@ body{
     text-transform: uppercase;
 }
 
-.signup-video-container{
-    position: absolute;
-    top: 52px;
-    left: 0;
-    z-index: -1;
-    text-align: center;
-}
 
-.signup-video{
-    width: 90vw;
-    height:auto;
-    overflow: hidden;
+.signup-background-image{
+    background-image: url("../images/gymkit.jpg");
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
 }
 
 .signup-form h2{
     text-transform: uppercase;
     color: #D95436;
 }
-
-.signup-form{ 
-    z-index: 50;
-    color: #fff;
-    background-color: rgba(60,60,60,0.9);
-    width: 500px;
-    height: 600px; 
-    padding: 30px;  
-} 
 
 .dropdown-membership-button{
     margin-top: 7px;
@@ -578,28 +599,19 @@ body{
     font-size: 14px;
     margin-bottom: 1px;
     padding-bottom: 1px;  
-}
-
-.footer h4{   
-    padding-top: 0px;
-    margin-bottom: 2px;
-    margin-top: 2px;  
+    padding-top: 20px;
 }
 
 .footer-offer{
     margin: 4px 0;
 }
 
-.social-heading{
-    text-align: right;
-    padding-right: 200px;
-}
-
 .footer-social-icons {
     text-align: right;
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 5px;
-    cursor: pointer;   
+    cursor: pointer; 
+    padding-top: 20px;  
 }
 
 .footer-social-icons a:hover {
@@ -609,6 +621,7 @@ body{
 
 .join-now{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .footer-membership-link{
@@ -632,7 +645,50 @@ body{
 
 
 /*---------------------------------------- Media Query --------------------- */
+@media only screen and (min-width:1001px){
+    
+.logo-mobile{
+    display: none
+}
+
+.about-the-gym-mobile,
+ #footer-mobile-view{
+    display: none;
+ }  
+
+.hero-text-mobile-break{
+    display: none;
+}
+
+.hero-text-mobile{
+    display: none;
+}
+
+.hero-text{
+    display: hidden;
+}
+
+}
+
 @media only screen  and (max-width: 1000px){
+
+
+.about-the-gym-desktop,   
+#footer-desktop-view {
+    display: none;
+}
+
+.hero-heading-text{
+    display: none;
+}
+
+.hero-text p{
+    display: none;
+}
+
+.offer-text{
+    display: none;
+}
 
 #navbarNav{
     position: relative;
@@ -653,32 +709,46 @@ body{
     display: none;
 }
 
-.signup-background-image{
-    background-image: url("../images/gymkit.jpg");
-    width: 100%;
-    height: 100%;
-    overflow:hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-
+.logo-desktop{
+    display: none
 }
+
 
 
 }
 
+@media only screen  and (max-width: 768px) { /*tablet and desktop view*/
 
-@media only screen and (max-width: 443px) {   /*mobile view*/
+.gym-info{
+    padding: 90px 50px 50px 50px;
+}
+
+.classes-info{
+      padding: 50px 50px 50px 50px;
+}
+
+.trainers-info{
+    padding: 90px 50px 50px 50px;
+}
+
+.personal-training-image{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.gym-kit-image{
+    margin-bottom: 15px;
+}
+
+}
+
+@media only screen and (max-width: 586px) {   /*mobile view*/
 
 .about-the-gym-desktop,   
 #footer-desktop-view {
     display: none;
 }
-    
+
 .carousel-height {
     height: 34vh;
 }
@@ -709,9 +779,12 @@ body{
     margin-bottom: 5px;
 }
 
+.classes-info{
+    margin-bottom: 20px;
+}
+
 .class-timetable{
     padding-left: 0px;
-
 }
 
 .modal-header-thankyou{
@@ -760,7 +833,6 @@ body{
 .hero-text p{
     display: none;
 }
-
 
 .hero-offer-text {
     font-size: 5vw;
@@ -855,35 +927,6 @@ body{
 
 .kettlebell-button{
     margin-bottom: 10px;
-}
-
-}
-@media only screen  and (min-width: 444px) { /*tablet and desktop view*/
-
-.about-the-gym-mobile,
- #footer-mobile-view{
-    display: none;
- }  
-
-.modal-header-map{
-    padding-left: 70px;
-    padding-right: 20px;
-}
-
-.modal-header-thankyou{
-    padding-left: 15px;
-    padding-right: 15px
-}
-.about-header{
-    margin-bottom: 20px;
-}
-
-.hero-text-mobile-break{
-    display: none;
-}
-
-.hero-text-mobile{
-    display: none;
 }
 
 }
