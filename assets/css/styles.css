@@ -423,8 +423,8 @@ body{
 .findus-landing-button-position{
     text-align: center;
 }
-/*----------------------------------------Signup page--------------------- */
 
+/*----------------------------------------Signup page--------------------- */
 
    
 .signup-form{ 
@@ -438,7 +438,6 @@ body{
     margin-bottom: 85px;
     margin-left: 500px;
 } 
-
 
 .signup-form label{
     margin: 0;
@@ -476,7 +475,6 @@ body{
     color: yellow;
     text-transform: uppercase;
 }
-
 
 .signup-background-image{
     background-image: url("../images/gymkit.jpg");
