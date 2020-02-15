@@ -624,9 +624,13 @@ body{
 .footer{
     background-color:#36454f;
     color:#D99F7E;  
+}
+
+.footer-fixed{
     position: fixed;
     left: 0;
     bottom: 0;
+    width: 100%;
 }
 
 .foot-address{   
