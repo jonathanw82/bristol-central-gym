@@ -311,10 +311,13 @@ body{
     margin-top: 2px;
     margin-bottom:2px;
     color: #D99F7E;
-    padding-left: 2px;
     text-align: left;
     background-color:#36454f;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 10px;
 }
+
 
 .class-selector:hover{
     border: 2px solid yellow;
@@ -468,9 +471,7 @@ body{
     width: 500px;
     height: 600px; 
     padding: 30px; 
-    margin-top: 70px;
-    margin-bottom: 85px;
-    margin-left: 500px;
+  margin: auto;
 } 
 
 .signup-form label{
@@ -651,6 +652,7 @@ body{
     letter-spacing: 5px;
     cursor: pointer; 
     padding-top: 20px;  
+    padding-bottom: 20px;
 }
 
 .footer-social-icons a:hover {
@@ -753,7 +755,6 @@ body{
 }
 
 
-
 }
 
 @media only screen  and (max-width: 768px) { /*tablet and desktop view*/
@@ -813,10 +814,24 @@ body{
     letter-spacing: 2px;
     margin-bottom: 10px;
     text-align: center;
+    padding-bottom: 0px;
+
 }
 
 .footer h4 {
     margin-bottom: 5px;
+}
+
+.footer-fixed{
+    position: relative; 
+}
+
+.footer-social-icons{
+    padding-top: 10px;
+}
+
+.foot-address{
+    padding-top: 10px;
 }
 
 .classes-info{
@@ -908,20 +923,12 @@ body{
     position: relative;
 }
 
-.signup-form{
-    padding-top: 20px;
-    padding-left: 25px;
-    width: 100vw;
-    height: auto; 
-    margin-left: 0px; 
-}
-
 .signup-form h2{
     text-align: center;
 }
 
 .dropdown-membership-button{
-    margin-left: 70px;
+    margin-left: 10px;
 }
 
 .signup-video-container{
