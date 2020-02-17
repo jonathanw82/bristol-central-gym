@@ -1,0 +1,973 @@
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic|Righteous&display=swap');
+
+
+body{
+    font-family: "Carrois Gothic", sans-serif; 
+    background-color:#f9f9f9;
+    overflow: hidden;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.logo{
+    color: #D99F7E;
+    font-family: "Righteous", sans-serif;
+}
+
+/*---------------------------------------- Navigation --------------------- */
+
+.navbar-collapse{
+    background-color: #36454f;
+    padding-left: 10px;
+}
+
+.nav-bg-color{
+    background-color:#36454f;
+}
+
+#navbarNav{
+    position: absolute;
+    right: 20px;
+}
+
+.nav-item a{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#D99F7E;
+}
+
+.nav-info a:hover{
+    color:#D95436;
+}
+
+.membership span:hover{
+    color:yellow;
+}
+
+.navbar-toggler-icon{
+    color:#D99F7E;
+    font-size:28px;
+    padding-top: 8px;
+}
+
+/*---------------------------------------- Hero image --------------------- */
+
+.picture {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.pic-01{
+    background-image: url("../images/imageslide/one.jpg");
+}
+
+.pic-02{
+    background-image: url("../images/imageslide/two.jpg");
+}
+
+.pic-03{
+    background-image: url("../images/imageslide/three.jpg");
+}
+
+
+.pic-04{
+    background-image: url("../images/imageslide/four.jpg");
+}
+
+.carousel-height {
+    height: 80vh;
+}
+
+.hero-container{
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text{  
+    text-align:center; 
+    padding-left:100px;  
+    padding-right: 100px; 
+}
+
+.hero-heading-text{
+    font-size:6vw; 
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #592E2E;
+    text-shadow:2px 2px 20px#fff; 
+}
+
+.hero-text p{
+    word-wrap: break-word;
+    color:#D99F7E; 
+    font-size: 5vw;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #592E2E;
+    text-shadow:2px 2px 20px#fff; 
+}
+
+.hero-offer-text {
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #592E2E;
+    font-weight: 900;
+    font-size: 4vw;
+    color: red;
+    text-transform: uppercase;    
+    text-shadow:2px 2px 20px#fff; 
+}
+
+.offer-text .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.hero-text-mobile-break{
+    word-wrap: break-word;
+    color:red; 
+    font-size: 6vw;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.8px;
+    -webkit-text-stroke-color: #000000;
+    text-shadow:0px 0px 0px#fff;  
+}
+
+/*---------------------------------------- Membertship prices ---------------- */
+
+.membership-prices{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.about-the-gym{
+    text-align: center;
+}
+
+.about-header{
+    background-color: #36454f;
+    margin-bottom: 30px;
+    color:  #D99F7E;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-header h2{
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.about-the-gym h2{
+    color: #D99F7E;
+    font-weight: 800;
+    margin: 50px 50px;
+    text-transform: uppercase;
+}
+
+.gym-kit-image{
+    background-image: url("../images/GYM.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 70px;
+    border-style: ridge;
+}
+
+.gym-kit-row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.personal-trainer-row{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.findus-landing-button-row{
+    margin-bottom: 20px;
+}
+
+.studio-classes-image{
+    background-image: url("../images/Classes.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 70px;    
+    border-style: ridge;
+}
+
+.personal-training-image{
+    background-image: url("../images/trainer.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 70px;
+    border-style: ridge;
+}
+
+.gym-info{
+    position: relative;
+    padding: 150px 90px 90px 90px;
+    font-size: 16px;
+}
+
+.gym-info h4{
+    font-weight: 500;
+}
+
+.classes-info h4{
+    font-weight: 500;
+}
+
+.trainers-info h4{
+    font-weight: 500;
+}
+
+.classes-info{
+    position: relative;
+    padding: 150px 90px 90px 90px;
+    font-size: 16px;
+}
+
+.trainers-info{
+    position: relative;
+    padding: 150px 90px 90px 90px; 
+    font-size: 16px;
+}  
+
+.class-info-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#D99F7E;
+    border: 2px solid #D99F7E;
+    border-radius: 2px;
+    padding-top:2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+ }
+
+.class-info-link:hover{
+    color:yellow;
+    border-color: #D95436;
+    background-color: #36454f;
+}
+
+/*---------------------------------------- Timetable  ----------------- */
+
+.timetable-image{
+    background-image: url("../images/classesbook.jpg");
+    width: 100%;
+    height: 70vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.Timetable-heading{
+    color:  #D99F7E;
+    text-transform: uppercase;
+    background-color:rgba(60,60,60,0.8);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Timetable-heading h2{
+    font-weight: 800;
+    color:#D95436;
+    text-align: center;
+}
+
+.Timetable-heading p{
+    font-size: 22px;
+    font-weight: 900;
+    color:#D95436;
+    text-align: center;
+}
+
+.class-selector{
+    width: 200px;
+    height: 50px;
+    margin-top: 2px;
+    margin-bottom:2px;
+    color: #D99F7E;
+    text-align: left;
+    background-color:#36454f;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+
+.class-selector:hover{
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.classes-modal-popup{
+    background-color:rgba(60,60,60,1);
+    outline-color: rgba(255, 255, 255, .5);
+    text-transform: uppercase;
+    color: yellow;
+    border: 2px solid yellow;  
+}
+
+.timetables-modal span{
+    color:#D95436;
+    font-weight: 800;
+    padding-right: 10px;
+}
+
+.timetables-modal p{
+    font-size: 20px; 
+    margin-left: 10px;
+}
+
+#kettlemodal h5{  
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 25px;
+    color:#D99F7E;
+    margin-left: 10px;
+    padding-bottom: 10px;    
+}
+
+#absblastmodal h5{  
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 25px;
+    color:#D99F7E;
+    margin-left: 10px;
+    padding-bottom: 10px;    
+}
+
+#zumbamodal h5{  
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 25px;
+    color:#D99F7E;
+    margin-left: 10px;
+    padding-bottom: 10px;    
+}
+
+#coremodal h5{  
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 25px;
+    color:#D99F7E;
+    margin-left: 10px;
+    padding-bottom: 10px;    
+}
+
+#legsbumstumsmodal h5{  
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 25px;
+    color:#D99F7E;
+    margin-left: 10px;
+    padding-bottom: 10px;    
+}
+
+#spinmodal h5{  
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 25px;
+    color:#D99F7E;
+    margin-left: 10px;
+    padding-bottom: 10px;    
+}
+
+#bodypumpmodal h5{  
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 25px;
+    color:#D99F7E;
+    margin-left: 10px;
+    padding-bottom: 10px;    
+}
+
+/*---------------------------------------- map -------------------------- */
+
+.map-box{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 5px solid black; 
+}
+
+.map-container-inline{
+    text-align: center;
+    overflow: hidden;
+}
+
+.map-container-inmodal-thankyou,
+.map-container-inmodal{
+    border: 5px solid black;
+    padding-left: 0;
+    padding-right: 0;   
+    width: 300px;
+    height: 300px;
+}
+
+.findus-modal-info{
+    display: inline-block;
+}
+
+.findus-landing-button{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#D99F7E;
+    border: 2px solid #D99F7E;
+    border-radius: 2px;
+    padding: 4px 3px 2px 2px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+.findus-landing-button:hover{
+    color:yellow;
+    border-color: #D95436;
+    background-color: #36454f;
+}
+
+.findus-landing-button-position{
+    text-align: center;
+}
+
+/*----------------------------------------Signup page--------------------- */
+
+   
+.signup-form{ 
+    z-index: 50;
+    color: #fff;
+    background-color: rgba(60,60,60,0.9);
+    width: 500px;
+    height: 600px; 
+    padding: 30px; 
+  margin: auto;
+} 
+
+.signup-form label{
+    margin: 0;
+}
+
+.form-group{
+    margin: 0px;
+    width: 400PX;
+}
+
+.signup-submit-button {
+    margin-top: 10px;
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #D99F7E;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px
+} 
+
+.signup-submit-button:hover {
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.signup-background-image{
+    background-image: url("../images/gymkit.jpg");
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.signup-form h2{
+    text-transform: uppercase;
+    color: #D95436;
+}
+
+.dropdown-membership-button{
+    margin-top: 7px;
+    background-color: transparent;
+    border-color: #ffffff;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);  
+    font-weight: 500;
+    font-size: 16px;  
+    color: #D99F7E;
+    margin-bottom: 10px;
+}
+
+.dropdown-membership-button:hover {
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.dropdown-membership-select{
+    background-color:  rgba(60,60,60,0.9);
+}
+
+.dropdown-item{
+    color: #D99F7E;
+    font-weight: 800;
+}
+
+.dropdown-item:hover{
+    color: #D95436;;
+}
+
+.dropdown-membership-select:hover {
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-transform: uppercase;
+}
+
+.form-group input{
+    background-color: transparent;
+    border: 1px solid rgb(230, 230, 247);
+    color: white;
+}
+
+.form-group input:hover{
+    border: 2px solid yellow;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+
+.form-group label{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    color: #D99F7E;
+}
+
+/*--------------------------------------- Modal ---------------------------*/
+
+.modal-body{
+    text-align: center;
+}
+
+.findus-modal-info{
+    text-align: left;
+    margin-right: 180px;
+}
+
+.modal-header{
+    padding-left: 70px;
+}
+
+.thankYou-modal-info p{
+    text-align: left;
+    word-wrap: break-word;
+    color:black;
+}
+
+/*---------------------------------------- Footer ------------------------- */
+
+.footer{
+    background-color:#36454f;
+    color:#D99F7E;  
+}
+
+.footer-fixed{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot-address{   
+    line-height: 14px;
+    font-size: 14px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;  
+    padding-top: 20px;
+}
+
+.footer-offer{
+    margin: 4px 0;
+}
+
+.footer-social-icons {
+    text-align: right;
+    font-size: 25px;
+    letter-spacing: 5px;
+    cursor: pointer; 
+    padding-top: 20px;  
+    padding-bottom: 20px;
+}
+
+.footer-social-icons a:hover {
+    color:#D95436; 
+    text-decoration: none;
+}
+
+.join-now{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-membership-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#D99F7E;
+    border: 2px solid #D99F7E;
+    border-radius: 2px;
+    padding-top:2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+}
+
+.footer-membership-link:hover{
+    color:yellow;
+    border-color: transparent;
+}
+
+
+/*---------------------------------------- Media Query --------------------- */
+@media only screen and (min-width:1001px){
+    
+.logo-mobile{
+    display: none
+}
+
+.about-the-gym-mobile,
+ #footer-mobile-view{
+    display: none;
+ }  
+
+.hero-text-mobile-break{
+    display: none;
+}
+
+.hero-text-mobile{
+    display: none;
+}
+
+.hero-text{
+    display: hidden;
+}
+
+}
+
+@media only screen  and (max-width: 1000px){
+
+
+.about-the-gym-desktop,   
+#footer-desktop-view {
+    display: none;
+}
+
+.hero-heading-text{
+    display: none;
+}
+
+.hero-text p{
+    display: none;
+}
+
+.offer-text{
+    display: none;
+}
+
+#navbarNav{
+    position: relative;
+    margin-left: 5px;
+}
+
+.core-button{
+    margin-bottom: 100px;
+}
+
+.signup-form{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-video-container{
+    display: none;
+}
+
+.logo-desktop{
+    display: none
+}
+
+
+}
+
+@media only screen  and (max-width: 768px) { /*tablet and desktop view*/
+
+.gym-info{
+    padding: 90px 50px 50px 50px;
+}
+
+.classes-info{
+      padding: 50px 50px 50px 50px;
+}
+
+.trainers-info{
+    padding: 90px 50px 50px 50px;
+}
+
+.personal-training-image{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.gym-kit-image{
+    margin-bottom: 15px;
+}
+
+
+}
+
+@media only screen and (max-width: 586px) {   /*mobile view*/
+
+.about-the-gym-desktop,   
+#footer-desktop-view {
+    display: none;
+}
+
+.carousel-height {
+    height: 34vh;
+}
+
+.picture{
+    height: 100%;
+}
+
+.social-heading{
+    text-align: left;
+}
+
+.order1{
+    display: none;
+}
+
+#mobile{
+    display: none;
+}
+
+.footer-social-icons{
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 0px;
+
+}
+
+.footer h4 {
+    margin-bottom: 5px;
+}
+
+.footer-fixed{
+    position: relative; 
+}
+
+.footer-social-icons{
+    padding-top: 10px;
+}
+
+.foot-address{
+    padding-top: 10px;
+}
+
+.classes-info{
+    margin-bottom: 20px;
+}
+
+.class-timetable{
+    padding-left: 0px;
+}
+
+.modal-header-thankyou{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.modal-header-map{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.our-gym-images-mobile{
+    width: 300px;
+    height: 300px;
+}
+
+.gym-info,
+.trainers-info,
+.classes-info{
+    text-align: center;
+    padding: 10px 20px;
+   
+}
+
+.membership-prices{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#f9f9f9
+}
+
+.timetable-backing-blank{
+    background-color:#FAF5E1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.core-button{
+    margin-bottom: 10px;
+}
+
+.hero-heading-text{
+    display: none;
+}
+
+.hero-text p{
+    display: none;
+}
+
+.hero-offer-text {
+    font-size: 5vw;
+}
+
+.offer-desktop{
+    display: none;
+}
+
+.form-group{
+    padding-left: 10px;
+    width: 85vw;
+}
+
+.form-check{
+    margin-left: 20px;   
+}
+
+.form-check label{
+    font-size: 12px;
+}
+
+.form-group label{
+    padding: 2px;
+}
+
+.signup-button{
+    text-align: center;
+    position: relative;
+}
+
+.signup-form h2{
+    text-align: center;
+}
+
+.dropdown-membership-button{
+    margin-left: 10px;
+}
+
+.signup-video-container{
+    display: none;
+}
+
+.timetable-image{
+    display: none;
+}
+
+.Timetable-heading{
+    text-align: center;
+    background-color: rgba(191,191,191,0.8);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Timetable-heading h2{
+    font-weight: 800;
+    color:#D95436;
+}
+
+.Timetable-heading p{
+    font-size: 22px;
+    font-weight: 900;
+    color:#D95436;
+}
+
+.class-selector{
+    width: 100vw;
+    text-align: center;
+    font-size: 25px;
+}
+
+.kettlebell-button{
+    margin-bottom: 10px;
+}
+
+}
+
+
+
