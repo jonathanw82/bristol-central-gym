@@ -1,10 +1,10 @@
 <h1 align="center">
-    <img src="https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/Bristol-Gym-ReadMe-image.png" alt="Gym-Logo-Image"/>
+   <a href="https://jonathanw82.github.io/bristol-central-gym" target="_blank"><img src="https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/Bristol-Gym-ReadMe-image.png" alt="Gym-Logo-Image"/></a>
  </h1>
 
 <div align="center">
     
-[View Bristol Central Gym in GitHub Pages](https://jonathanw82.github.io/bristol-central-gym)
+[View Bristol Central Gym in GitHub Pages](https://github.com/jonathanw82/bristol-central-gym)
 </div>
 
 An informative website for city center gym based in heart of bristol.
