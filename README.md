@@ -3,7 +3,7 @@
  </h1>
 
 <div align="center">
-[View Bristol City Gym in GitHub Pages](https://jonathanw82.github.io/bristol-central-gym/)
+- [View Bristol City Gym in GitHub Pages](https://jonathanw82.github.io/bristol-central-gym)
 </div>
 
 An informative website for city center gym based in heart of bristol.
@@ -46,15 +46,15 @@ The customer goals of this website are:
     
 #### WireFrame Mockups:
 ##### Desktop View
--[Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Home-DTV.png)
--[Facilities](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Facilities-DTV.png)
--[Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Timetables-DTV.png)
--[SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Signup-DTV.png)
+- [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Home-DTV.png)
+- [Facilities](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Facilities-DTV.png)
+- [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Timetables-DTV.png)
+- [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Signup-DTV.png)
 
 ##### Mobile View
--[Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Home-MV.png)
--[Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Timetables-MV.png)
--[SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Signup-MV.png)
+- [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Home-MV.png)
+- [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Timetables-MV.png)
+- [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Signup-MV.png)
 
 ## Features:
 
