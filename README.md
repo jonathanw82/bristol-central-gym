@@ -111,8 +111,8 @@ https://webdeasy.de/en/top-css-buttons-en/
 David Conner #21 Collection of Button Hover Effects
 
 Acknowledgments:
-I recieved inspitartion for theis project from;
-Elen Davies.
+I recieved inspitartion for this project from;
+Elen Davies(Personal Trainer & Quality Assurance Specialiset).
 
 
 
