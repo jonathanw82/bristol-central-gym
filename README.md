@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/Bristol-Gym-ReadMe-image.png" alt="Gym Logo Image"></a>
+    <a href="https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/Bristol-Gym-ReadMe-image.png" alt="Gym-Logo-Image"></a>
  </h1>
 
 # Bristol Central Gym
@@ -44,7 +44,7 @@ The customer goals of this website are:
     
 #### WireFrame Mockups:
 ##### Desktop View
--[Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Index-DTV.png)
+-[Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Home-DTV.png)
 -[Facilities](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Facilities-DTV.png)
 -[Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Timetables-DTV.png)
 -[SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Signup-DTV.png)
