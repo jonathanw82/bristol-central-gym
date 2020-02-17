@@ -4,7 +4,7 @@
 
 <div align="center">
     
-[View Bristol Central Gym in GitHub Pages](https://jonathanw82.github.io/bristol-central-gym)
+[View Bristol Central Gym in GitHub Pages](https://jonathanw82.github.io/bristol-central-gym target="_blank" )
 </div>
 
 An informative website for city center gym based in heart of bristol.
