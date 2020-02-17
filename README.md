@@ -44,7 +44,7 @@ The customer goals of this website are:
 * It gives the client the information they need without confusing them.
 * Channeling then to fill out the membership form.
     
-#### WireFrame Mockups:
+## WireFrame Mockups:
 ##### Desktop View
 - [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Home-DTV.png)
 - [Facilities](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Facilities-DTV.png)
