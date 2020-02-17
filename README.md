@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/Bristol-Gym-ReadMe-image.png" alt="Gym-Logo-Image"/></a>
+    <img src="https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/Bristol-Gym-ReadMe-image.png" alt="Gym-Logo-Image"/>
  </h1>
 
 # Bristol Central Gym
