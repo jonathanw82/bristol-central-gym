@@ -54,7 +54,7 @@ The customer goals of this website are:
 
 ##### Mobile View
 - [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Home-MV.png)
-- [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Timetables-MV.png)
+- [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Timetable-MV.png)
 - [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Signup-MV.png)
 
 ## Features:
