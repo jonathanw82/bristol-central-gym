@@ -39,7 +39,16 @@ The customer goals of this website are:
 * Channeling then to fill out the membership form.
     
 #### WireFrame Mockups:
+#### Desktop View
+-[Home]
+-[Facilities]
+-[Timetables]
+-[SignUp]
 
+#### Mobile View
+-[Home-MV]
+-[Timetables-MV]
+-[SignUp-MV]
 
 ## Features:
 
