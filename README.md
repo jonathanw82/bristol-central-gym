@@ -2,7 +2,9 @@
     <img src="https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/Bristol-Gym-ReadMe-image.png" alt="Gym-Logo-Image"/>
  </h1>
 
-# Bristol Central Gym
+<div align="center">
+[View Bristol City Gym in GitHub Pages](https://jonathanw82.github.io/bristol-central-gym/)
+</div>
 
 An informative website for city center gym based in heart of bristol.
 Website features a inspirational slidshow of photos, product infomation, timetables and a signup page.
