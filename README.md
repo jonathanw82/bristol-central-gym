@@ -40,7 +40,7 @@ The customer goals of this website are:
     
 #### WireFrame Mockups:
 #### Desktop View
--[Home]url("./bristol-central-gym/WireFrame/Index-DTV.png");
+-[Home]https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Index-DTV.png
 -[Facilities]
 -[Timetables]
 -[SignUp]
