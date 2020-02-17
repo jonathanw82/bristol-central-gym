@@ -4,7 +4,7 @@
 
 <div align="center">
     
-[View Bristol City Gym in GitHub Pages](https://jonathanw82.github.io/bristol-central-gym)
+[View Bristol Central Gym in GitHub Pages](https://jonathanw82.github.io/bristol-central-gym)
 </div>
 
 An informative website for city center gym based in heart of bristol.
@@ -61,10 +61,9 @@ The customer goals of this website are:
 
 Each page features a **navigation bar** with responsive features, the branding logo (top Left) of the page and a signup button top right. Each page has a footer that contains site adress and social media links.
 
-The site will be made up of 3-4 pages linked by a menu bar.
 
-Page one:
-Will contain the gyms brand, location and inspirational motivating quote,
+##### Home
+The Home page is made up of a hero image caroucel with branding overlay on desktop view and hero carousel with branding below on mobile view. Followed by membership options and pricing, leading to infomation about the gym, classes and personal trainers all with there seperate images, howver the classes section has a call to action button that takes the user to the timetable page. On both desktop and mobile views however the images are staggered with infomation to one side on desktop view and veritcal on mobile  
 
 Page two:
 Will contain what the gym has to offer such as swimming, arobic classes etc.
