@@ -305,7 +305,7 @@ body{
     left: 0;
 }
 
-.Timetable-heading{                                 /* lowercase */
+.timetable-heading{                                 
     color:  #D99F7E;
     text-transform: uppercase;
     background-color:rgba(60,60,60,0.8);
@@ -313,13 +313,13 @@ body{
     margin-top: 20px;
 }
 
-.Timetable-heading h2{
+.timetable-heading h2{
     font-weight: 800;
     color:#D95436;
     text-align: center;
 }
 
-.Timetable-heading p{
+.timetable-heading p{
     font-size: 22px;
     font-weight: 900;
     color:#D95436;
@@ -438,7 +438,7 @@ body{
     overflow: hidden;
 }
 
-.map-container-inmodal-thankyou,
+
 .map-container-inmodal{
     border: 5px solid black;
     padding-left: 0;
@@ -511,6 +511,7 @@ body{
     padding: 30px; 
     margin: auto;
     margin-top: 20px;
+    padding-left: 50px;
 } 
 
 .signup-form label{
@@ -780,13 +781,17 @@ body{
 .core-button{
     margin-bottom: 100px;
 }
-
+/*
 .signup-form{
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+*/
 
+.signup-form{
+    margin: auto;
+}
 .logo-desktop{
     display: none
 }
@@ -950,7 +955,7 @@ body{
 
 .form-group{
     padding-left: 10px;
-    width: 85vw;
+    width: 100%;
 }
 
 .form-check{
@@ -978,9 +983,6 @@ body{
     margin-left: 10px;
 }
 
-.signup-video-container{
-    display: none;
-}
 
 .timetable-image{
     display: none;
@@ -1022,6 +1024,7 @@ body{
     width: 100vw;
     height: 100%;
     margin-left: 0;
+    padding-left: 15px;  
 }
 
 }
