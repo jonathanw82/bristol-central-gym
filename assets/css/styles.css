@@ -96,37 +96,54 @@ body{
     transform: translate(-50%, -50%);
 }
 
+/*
 .hero-text{  
+    position: absolute;
     text-align:center; 
-    padding-left:100px;  
-    padding-right: 100px; 
+    padding-left:50px;  
+    padding-right: 50px; 
+    top: 0;
 }
-
+*/
 .hero-heading-text{
-    font-size:6vw; 
+    font-size:6rem; 
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: #592E2E;
     text-shadow:2px 2px 20px#fff; 
+    text-align: center;
 }
 
 .hero-text p{
     word-wrap: break-word;
     color:#D99F7E; 
-    font-size: 5vw;
+    font-size: 5rem;
     text-transform: uppercase;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: #592E2E;
     text-shadow:2px 2px 20px#fff; 
+    text-align: center;
 }
 
 .hero-offer-text {
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #592E2E;
     font-weight: 900;
-    font-size: 4vw;
+    font-size: 4rem;
     color: red;
     text-transform: uppercase;    
     text-shadow:2px 2px 20px#fff; 
+    text-align: center;
+}
+
+.hero-offer-text-mobile {
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #592E2E;
+    font-weight: 900;
+    font-size: 3rem;
+    color: red;
+    text-transform: uppercase;    
+    text-shadow:2px 2px 20px#fff; 
+    text-align: center;
 }
 
 .offer-text .letter {
@@ -137,11 +154,15 @@ body{
 .hero-text-mobile-break{
     word-wrap: break-word;
     color:red; 
-    font-size: 6vw;
+    font-size: 3rem;
     text-transform: uppercase;
     -webkit-text-stroke: 0.8px;
     -webkit-text-stroke-color: #000000;
     text-shadow:0px 0px 0px#fff;  
+}
+
+.hero-text-mobile-break h2{
+    font-size: 3rem;
 }
 
 /*---------------------------------------- Membertship prices ---------------- */
@@ -411,13 +432,7 @@ body{
 }
 
 /*---------------------------------------- map -------------------------- */
-/*
-.map-box{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: 5px solid black; 
-}
-*/
+
 .map-container-inline{
     text-align: center;
     overflow: hidden;
@@ -427,9 +442,12 @@ body{
 .map-container-inmodal{
     border: 5px solid black;
     padding-left: 0;
-    padding-right: 0;   
-    width: 300px;
-    height: 300px;
+    padding-right: 0;
+}
+
+.map-iframe {
+    height: 100%;
+    width: 100%;
 }
 
 .findus-modal-info{
@@ -615,12 +633,26 @@ body{
     text-align: center;
 }
 
+.thank-you-modal{
+    background-color:rgba(60,60,60,1);
+    outline-color: rgba(255, 255, 255, .5);
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 2px solid yellow;  
+}
 
+.thank-you-modal h5{
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 25px;
+    color:#D99F7E;
+    text-align: center;
+    padding-bottom: 10px; 
+}
 
 .thankYou-modal-info p{
-    text-align: left;
-    word-wrap: break-word;
-    color:black;
+    justify-content: center;
+    color:#ffffff;
 }
 
 /*---------------------------------------- Footer ------------------------- */
@@ -691,6 +723,11 @@ body{
     border-color: transparent;
 }
 
+@media only screen  and (max-width: 2440px){
+
+
+}
+
 
 /*---------------------------------------- Media Query --------------------- */
 @media only screen and (min-width:1001px){
@@ -712,16 +749,9 @@ body{
     display: none;
 }
 
-.hero-text{
-    display: hidden;
-}
 
 }
 
-@media only screen  and (max-width: 2440px){
-
-
-}
 
 @media only screen  and (max-width: 1000px){
 
@@ -738,8 +768,7 @@ body{
 .hero-text p{
     display: none;
 }
-
-.offer-text{
+.hero-text span{
     display: none;
 }
 
@@ -758,14 +787,13 @@ body{
     margin-bottom: 20px;
 }
 
-.signup-video-container{
-    display: none;
-}
-
 .logo-desktop{
     display: none
 }
 
+.hero-offer-text{
+    display: none;
+}
 
 }
 
@@ -822,12 +850,17 @@ body{
     display: none;
 }
 
+.hero-text-mobile-break h2,
+.hero-text-mobile-break{
+    font-size: 2rem;
+}
+
+
 .footer-social-icons{
     letter-spacing: 2px;
     margin-bottom: 10px;
     text-align: center;
     padding-bottom: 0px;
-
 }
 
 .footer h4 {
@@ -910,9 +943,6 @@ body{
     display: none;
 }
 
-.hero-offer-text {
-    font-size: 5vw;
-}
 
 .offer-desktop{
     display: none;

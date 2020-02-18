@@ -74,6 +74,26 @@ Class Time table and personal training sessions infomation.
 Page Four:
 Membership Prices and sign up form.
 
+
+Errrors Encountered
+	<!-- WORKING - DOESNT PASS VALIDATOR -->
+                        <!-- <iframe class="map-container-inmodal"
+
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9944.945394327659!2d-2.600520555281349!3d51.45381689530526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e7869341d07%3A0xff9dec147ff74e37!2sBristol%20city%20centre%2C%20Bristol%20BS1%204SS!5e0!3m2!1sen!2suk!4v1582056642984!5m2!1sen!2suk" 
+							width="100%" height="100%" frameborder="2" style="border:0;" allowfullscreen=""></iframe>
+						 -->
+
+                         <!-- TESTING - REMOVED WIDTH AND HEIGHT ATTRIBUTE AND SET UP A CLASS "MAP-IFRAME" -  DOES IT PASS THE VALIDATOR ?-->
+                         <iframe class="map-container-inmodal map-iframe" 
+					         	 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9944.945394327659!2d-2.600520555281349!3d51.45381689530526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e7869341d07%3A0xff9dec147ff74e37!2sBristol%20city%20centre%2C%20Bristol%20BS1%204SS!5e0!3m2!1sen!2suk!4v1582056642984!5m2!1sen!2suk"
+							     ></iframe>
+                        
+                        <!-- FORMER -->
+                        <!-- <iframe class="map-container-inmodal" -->
+						<!-- src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"></iframe> -->
+
+
+
 Technologys used will include:
 HTML5, CSS3, Bootstrap, Gitpod, Sublime text and Balsamiq Mockup 3.
 
