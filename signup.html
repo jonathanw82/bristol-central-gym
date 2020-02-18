@@ -24,7 +24,8 @@
 	<!--============================================= Navigation and header ===================================-->
 
 	<nav class="navbar navbar-expand-lg nav-bg-color sticky-top ">
-		<h1 class="logo">Bristol Central Gym</h1>
+		<h1 class="logo logo-desktop">Bristol Central Gym</h1>
+		<h1 class="logo logo-mobile">B-C-G</h1>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
          </button>
@@ -37,10 +38,10 @@
 					<a class="nav-link" href="timetables.html">Timetables</a>
 				</li>
 				<li class="nav-item nav-info active">
-					<a class="nav-link" data-toggle="modal" data-target="#mapModal">Find-us</a>
+					<a class="nav-link" data-toggle="modal" data-target="#mapModal">Find Us</a>
 				</li>
 				<li class="nav-item membership active">
-					<a class="nav-link" href="signup.html"><span>SignUp</span></a>
+					<a class="nav-link" href="signup.html"><span>Sign Up</span></a>
 				</li>
 			</ul>
 		</div>
@@ -50,19 +51,14 @@
 
 	<section>
 		<form class="signup-form">
-			<h2>Signup now by selecting you membership!</h2>
-			<div class="dropdown">
-				<button class="btn dropdown-membership-button dropdown-toggle" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Select Your Membership!
-								</button>
-				<div class="dropdown-menu dropdown-membership-select" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item" href="#">Gym Only</a>
-					<a class="dropdown-item" href="#">Gym & Classes</a>
-					<a class="dropdown-item" href="#">Gym, Class & Swim</a>
-				</div>
-			</div>
+			<h2>Sign up now by selecting membership Type!</h2>
+			<select class="dropdown-membership-button" >
+				    <option class ="dropdown-item" value="0">Select Your Membership!</option>                  		
+					<option class="dropdown-item" value="1" >Gym Only= £16</option>
+					<option class="dropdown-item" value="2">Gym & Classes= £20</option>
+					<option class="dropdown-item" value="3">Gym, Class & Swim= £25</option>	
+                   
+			</select>
 			<div class="form-group">
 				<label for="fname">First Name</label>
 				<input type="text" class="form-control" id="fname" aria-describedby="fname" required>
@@ -92,10 +88,10 @@
 									<label class="form-check-label" for="t&c">Click to accept terms and conditions</label>
 								</div>
 								<div class="signup-button">
-									<button type="submit" class="btn signup-submit-button"  data-toggle="modal" data-target="#ThankyouModal" >SignUp!</button>
+									<button type="submit" class="btn signup-submit-button"  data-toggle="modal" data-target="#ThankyouModal" >Sign Up!</button>
 								</div>
 								<div class="signup-background-image">
-							</div>
+								</div>
 		</form>
 	</section>
 
@@ -110,7 +106,7 @@
 						<p class="foot-address">Bristol Central Gym, City Center<br>Long Road Ahead<br>BS6 6NR</p>
 					</div>
 					<div class="col-sm-4 join-now">
-						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
+						<h3 class="footer-offer-signup"> Join Up Now For 1 Month Free! </h3>
 					</div>
 					<div class="col-sm-4">
 						<div class="footer-social-icons ">
@@ -131,7 +127,7 @@
 			<div class="container-fluid footer">
 				<div class="row">
 					<div class="col-sm-4 join-now">
-						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
+						<h3 class="footer-offer-signup"> Sign Up Now For 1 Month Free! </h3>
 					</div>
 					<div class="col-sm-4 footer-address-line">
 						<p class="foot-address">Bristol Central Gym, City Center<br>Long Road Ahead<br>BS6 6NR</p>
@@ -152,15 +148,12 @@
 	</footer>
 
 	<!--================================================ modal  map ========================================-->
-
 	<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
 		aria-hidden="true">
 		<div class="modal-dialog" role="document">
-			<div class="modal-content">
+			<div class="modal-content map-modal">
 				<div class="modal-header">
 					<h5 class="modal-title" id="mapModalLabel">Here is how to find us</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true">&times;</span></button>
 				</div>
 				<div class="modal-body">
 					<div class="findus-modal-info">
@@ -170,8 +163,8 @@
 					<iframe class="map-container-inmodal"
 						src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"></iframe>
 				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary findus-close-button" data-dismiss="modal">Close</button>
+				<div class="modal-footer findus-close-button">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>

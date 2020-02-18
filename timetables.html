@@ -38,10 +38,10 @@
 					<a class="nav-link" href="timetables.html">Timetables</a>
 				</li>
 				<li class="nav-item nav-info ">
-					<a class="nav-link" data-toggle="modal" data-target="#mapModal">Find-us</a>
+					<a class="nav-link" data-toggle="modal" data-target="#mapModal">Find us</a>
 				</li>
 				<li class="nav-item membership ">
-					<a class="nav-link" href="signup.html"><span>SignUp</span></a>
+					<a class="nav-link" href="signup.html"><span>Sign Up</span></a>
 				</li>
 			</ul>
 		</div>
@@ -308,7 +308,7 @@
 					</div>
 					<div class="col-sm-4 join-now">
 						<h3 class="footer-offer"> Join Up Now For 1 Month Free!</h3>
-						<a class="footer-membership-link" href="signup.html"><span>SignUp!</span></a>
+						<a class="footer-membership-link" href="signup.html"><span>Sign Up!</span></a>
 					</div>
 					<div class="col-sm-4">
 						<div class="footer-social-icons">
@@ -330,7 +330,7 @@
 				<div class="row">
 					<div class="col-sm-4 join-now">
 						<h3 class="footer-offer"> Join Up Now For 1 Month Free! </h3>
-						<a class="footer-membership-link" href="signup.html"><span>SignUp!</span></a>
+						<a class="footer-membership-link" href="signup.html"><span>Sign Up!</span></a>
 					</div>
 					<div class="col-sm-4 footer-address-line">
 						<p class="foot-address">Bristol Central Gym, City Center<br>Long Road Ahead<br>BS6 6NR</p>
@@ -351,30 +351,28 @@
 	</footer>
 
 	<!--========================================= modal =============================================-->
-
-	<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
-		aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="mapModalLabel">Here is how to find us</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true">&times;</span></button>
-				</div>
-				<div class="modal-body">
-					<div class="findus-modal-info">
-						<p>Bristol Central Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
-							<p> Click on the map to find us </p>
+    
+    <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content map-modal">
+					<div class="modal-header">
+						<h5 class="modal-title" id="mapModalLabel">Here is how to find us</h5>
 					</div>
-					<iframe class="map-container-inmodal"
-						src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"></iframe>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary findus-close-button" data-dismiss="modal">Close</button>
+					<div class="modal-body">
+						<div class="findus-modal-info">
+							<p>Bristol Central Gym<br>City Center<br>Long Road Ahead<br>BS6 6NR</p>
+								<p> Click on the map to find us </p>
+						</div>
+						<iframe class="map-container-inmodal"
+							src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"></iframe>
+					</div>
+					<div class="modal-footer findus-close-button">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">

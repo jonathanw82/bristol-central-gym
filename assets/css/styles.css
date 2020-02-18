@@ -274,7 +274,7 @@ body{
 .timetable-image{
     background-image: url("../images/classesbook.jpg");
     width: 100%;
-    height: 70vw;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -284,7 +284,7 @@ body{
     left: 0;
 }
 
-.Timetable-heading{
+.Timetable-heading{                                 /* lowercase */
     color:  #D99F7E;
     text-transform: uppercase;
     background-color:rgba(60,60,60,0.8);
@@ -325,15 +325,14 @@ body{
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388; 
-    color: yellow;
-    text-transform: uppercase;
+    color: yellow; 
 }
 
 .classes-modal-popup{
     background-color:rgba(60,60,60,1);
     outline-color: rgba(255, 255, 255, .5);
     text-transform: uppercase;
-    color: yellow;
+    color: #ffffff;
     border: 2px solid yellow;  
 }
 
@@ -412,13 +411,13 @@ body{
 }
 
 /*---------------------------------------- map -------------------------- */
-
+/*
 .map-box{
     margin-top: 20px;
     margin-bottom: 10px;
     border: 5px solid black; 
 }
-
+*/
 .map-container-inline{
     text-align: center;
     overflow: hidden;
@@ -435,6 +434,27 @@ body{
 
 .findus-modal-info{
     display: inline-block;
+}
+
+.modal-header{
+    justify-content: center;
+}
+
+.map-modal{
+    background-color:rgba(60,60,60,1);
+    outline-color: rgba(255, 255, 255, .5);
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 2px solid yellow;  
+}
+
+.map-modal h5{
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 25px;
+    color:#D99F7E;
+    text-align: center;
+    padding-bottom: 10px; 
 }
 
 .findus-landing-button{
@@ -471,7 +491,8 @@ body{
     width: 500px;
     height: 600px; 
     padding: 30px; 
-  margin: auto;
+    margin: auto;
+    margin-top: 20px;
 } 
 
 .signup-form label{
@@ -494,8 +515,7 @@ body{
     outline-color: rgba(255, 255, 255, .5);
     outline-offset: 0px;
     text-shadow: none;
-    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-    width: 100px;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);  
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 2px
@@ -505,10 +525,9 @@ body{
     border: 2px solid yellow;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
     outline-color: rgba(255, 255, 255, 0);
-    outline-offset: 15px;
+    outline-offset: 20px;
     text-shadow: 1px 1px 2px #427388; 
     color: yellow;
-    text-transform: uppercase;
 }
 
 .signup-background-image{
@@ -545,6 +564,8 @@ body{
     font-size: 16px;  
     color: #D99F7E;
     margin-bottom: 10px;
+    width: 215px;
+    height: 35px;
 }
 
 .dropdown-membership-button:hover {
@@ -554,28 +575,17 @@ body{
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388; 
     color: yellow;
-    text-transform: uppercase;
 }
 
-.dropdown-membership-select{
-    background-color:  rgba(60,60,60,0.9);
+.dropdown-membership-button option{
+    color: yellow;
+    font-weight: 500;
+    background-color: rgba(60,60,60,0.9);
 }
 
-.dropdown-item{
-    color: #D99F7E;
-    font-weight: 800;
-}
-
-.dropdown-item:hover{
-    color: #D95436;;
-}
-
-.dropdown-membership-select:hover {
-    border: 2px solid yellow;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
-    outline-color: rgba(255, 255, 255, 0);
-    outline-offset: 15px;
-    text-transform: uppercase;
+.select option:hover{
+    color: pink;
+  
 }
 
 .form-group input{
@@ -599,20 +609,13 @@ body{
     color: #D99F7E;
 }
 
-/*--------------------------------------- Modal ---------------------------*/
+/*----------------------------- Thank you Modal ---------------------------*/
 
 .modal-body{
     text-align: center;
 }
 
-.findus-modal-info{
-    text-align: left;
-    margin-right: 180px;
-}
 
-.modal-header{
-    padding-left: 70px;
-}
 
 .thankYou-modal-info p{
     text-align: left;
@@ -643,7 +646,11 @@ body{
 }
 
 .footer-offer{
-    margin: 4px 0;
+    margin: 4px 0;   
+}
+
+.footer-offer-signup{
+     margin-top: 22px;
 }
 
 .footer-social-icons {
@@ -708,6 +715,11 @@ body{
 .hero-text{
     display: hidden;
 }
+
+}
+
+@media only screen  and (max-width: 2440px){
+
 
 }
 
@@ -852,6 +864,11 @@ body{
     padding-right: 20px;
 }
 
+.findus-modal-info{
+    text-align: center;
+   
+}
+
 .our-gym-images-mobile{
     width: 300px;
     height: 300px;
@@ -969,5 +986,12 @@ body{
 
 }
 
+@media only screen and (max-width: 512px) {   /*mobile view*/
 
+.signup-form{
+    width: 100vw;
+    height: 100%;
+    margin-left: 0;
+}
 
+}
