@@ -59,20 +59,22 @@ The customer goals of this website are:
 
 ## Features:
 
-Each page features a **navigation bar** with responsive features, the branding logo (top Left) of the page and a signup button top right. Each page has a footer that contains site adress and social media links.
+Each page features a **navigation bar** with responsive features, the branding logo (top Left) will take the user back to the home page if pressed form any page. To the right there four navigation words Home, Timtables, find us and sign up all take you to the respective linked pages. Each page has a footer that contains site address (bottom left), all pages other than signup have a signup offer and a call to action button taking the user to the signup page, There are also social media links (bottom right). The footer has two changing states Mobile and desktop. On desktop the address is located on the left and the membership offer and call to action button is center, On mobile the address is stacked below the offer, allowing the user clear access to the signup call to action button.
 
 
 ##### Home
-The Home page is made up of a hero image caroucel with branding overlay on desktop view and hero carousel with branding below on mobile view. Followed by membership options and pricing, leading to infomation about the gym, classes and personal trainers all with there seperate images, howver the classes section has a call to action button that takes the user to the timetable page. On both desktop and mobile views however the images are staggered with infomation to one side on desktop view and veritcal on mobile  
+The Home page is made up of a hero image caroucel with branding overlay on desktop view and hero carousel with branding below on mobile view. Followed by membership options and pricing, leading to infomation about the gym, classes and personal trainers all with there seperate images, however the classes section has a call to action button that takes the user to the timetable page. On desktop view the images are staggered to either side with infomation to side of each. On mobile view infomation is stacked above each of the images  in a  veritcal layout. There is another call to action button center page just aboue the footer that will pop up a map of the gyms location.
 
-Page two:
-Will contain what the gym has to offer such as swimming, arobic classes etc.
+##### Timetables
+The Timetables page is made up of an eye catching background with a stack of call to action buttons (lefthand side) that are clearly named with classes available. On preesing the the buttons a popup widow will appear with clearly defined times and days the classes are available.
 
-Page three:
-Class Time table and personal training sessions infomation.
+##### Find Us
+The Findus page is a pop up box, clearly showing the address and a google map of the location with a close button (bottom right).
 
-Page Four:
-Membership Prices and sign up form.
+##### Signup
+The sign up page has a clear sign up form (middle) with clearly defined inputs consisting of a drop down menu that lists the membership types and prices above text input fields with first name, last name, email, phone and passsword folowed by two check boxes with reference to terms and conditions and marketing data. The bottom of the form has a signup button.
+
+
 
 
 Errrors Encountered
