@@ -63,7 +63,7 @@ Each page features a **navigation bar** with responsive features, the branding l
 
 
 ##### Home
-The Home page is made up of a hero image caroucel with branding overlay on desktop view and hero carousel with branding below on mobile view. Followed by membership options and pricing, leading to infomation about the gym, classes and personal trainers all with there seperate images, howver the classes section has a call to action button that takes the user to the timetable page. On both desktop and mobile views however the images are staggered with infomation to one side on desktop view and veritcal on mobile  
+The Home page is made up of a hero image, caroucel with branding overlay on desktop view and hero carousel with branding below on mobile view. Followed by membership options and pricing, leading to infomation about the gym, classes and personal trainers all with there seperate images, howver the classes section has a call to action button that takes the user to the timetable page. On both desktop and mobile views however the images are staggered with infomation to one side on desktop view and veritcal on mobile  
 
 Page two:
 Will contain what the gym has to offer such as swimming, arobic classes etc.
