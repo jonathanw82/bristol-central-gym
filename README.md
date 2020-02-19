@@ -112,6 +112,7 @@ https://pxhere.com/
 https://unsplash.com/
 "GYM" Image Photo by Danielle Cerullo on Unsplash
 Photo by Alora Griffiths on Unsplash
+"Readme" Image by Meghan Holmes on Unsplash 
 
 https://www.pexels.com/
 "Class" Image Photo by bruce mars from Pexels.
@@ -123,6 +124,8 @@ https://pixabay.com/
 
 https://pxhere.com/
 "shoes" Image by unknone camera 
+
+
 
 Media: The moving text and buttons used in this site were obtained from
 
