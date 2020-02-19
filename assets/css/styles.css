@@ -16,6 +16,11 @@ body{
     font-family: "Righteous", sans-serif;
 }
 
+.logo a:hover{
+    color: #D95436;
+    text-decoration: none;
+}
+
 /*---------------------------------------- Navigation --------------------- */
 
 .navbar-collapse{
@@ -242,8 +247,8 @@ body{
 
 .gym-info{
     position: relative;
-    padding: 150px 90px 90px 90px;
-    font-size: 16px;
+    padding: 130px 90px 90px 90px;
+    font-size: 1rem;
 }
 
 .gym-info h4{
@@ -260,14 +265,14 @@ body{
 
 .classes-info{
     position: relative;
-    padding: 150px 90px 90px 90px;
-    font-size: 16px;
+    padding: 115px 90px 90px 90px;
+    font-size: 1rem;
 }
 
 .trainers-info{
     position: relative;
-    padding: 150px 90px 90px 90px; 
-    font-size: 16px;
+    padding: 125px 90px 90px 90px; 
+    font-size: 1rem;
 }  
 
 .class-info-link{
@@ -781,13 +786,6 @@ body{
 .core-button{
     margin-bottom: 100px;
 }
-/*
-.signup-form{
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-*/
 
 .signup-form{
     margin: auto;
@@ -800,9 +798,21 @@ body{
     display: none;
 }
 
+.gym-info{
+    padding: 115px 90px 90px 90px;
+}
+
+.classes-info{
+    padding: 55px 90px 90px 90px;
+}
+
+.trainers-info{
+    padding: 110px 90px 90px 90px;
+}
 }
 
 @media only screen  and (max-width: 768px) { /*tablet and desktop view*/
+
 
 .gym-info{
     padding: 90px 50px 50px 50px;
@@ -824,7 +834,6 @@ body{
 .gym-kit-image{
     margin-bottom: 15px;
 }
-
 
 }
 
@@ -860,7 +869,6 @@ body{
     font-size: 2rem;
 }
 
-
 .footer-social-icons{
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -883,11 +891,11 @@ body{
 .foot-address{
     padding-top: 10px;
 }
-
+/*
 .classes-info{
     margin-bottom: 20px;
 }
-
+*/
 .class-timetable{
     padding-left: 0px;
 }
