@@ -53,15 +53,15 @@ The information is clearly separated in to relevant sections to make the site ea
     
 ## WireFrame Mockups:
 #### Desktop View
-- [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Home-DTV.png)
-- [Facilities](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/Facilities-DTV.png
-- [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Timetables-DTV.png)
-- [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Signup-DTV.png)
+- [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Home-DTV.png).
+- [Facilities](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/Facilities-DTV.png).
+- [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Timetables-DTV.png).
+- [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Signup-DTV.png).
 
 #### Mobile View
-- [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Home-MV.png)
-- [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Timetable-MV.png)
-- [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Signup-MV.png)
+- [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Home-MV.png).
+- [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Timetable-MV.png).
+- [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/WireFrame/Signup-MV.png).
 
 ## Features:
 Each page features a **navigation bar** with responsive features. 
