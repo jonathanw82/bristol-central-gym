@@ -95,36 +95,13 @@ The Find us page is a pop-up box, clearly showing the address and a Google map o
 The sign up page has a clear sign up form (middle) with clearly defined inputs consisting of a drop down menu that lists the membership types and prices above text input fields with first name, last name, email, phone and password, followed by two check boxes with reference to terms and conditions and marketing data. The bottom of the form has a signup button.
 
 
-
-
-Errrors Encountered
-	<!-- WORKING - DOESNT PASS VALIDATOR -->
-                        <!-- <iframe class="map-container-inmodal"
-
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9944.945394327659!2d-2.600520555281349!3d51.45381689530526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e7869341d07%3A0xff9dec147ff74e37!2sBristol%20city%20centre%2C%20Bristol%20BS1%204SS!5e0!3m2!1sen!2suk!4v1582056642984!5m2!1sen!2suk" 
-							width="100%" height="100%" frameborder="2" style="border:0;" allowfullscreen=""></iframe>
-						 -->
-
-                         <!-- TESTING - REMOVED WIDTH AND HEIGHT ATTRIBUTE AND SET UP A CLASS "MAP-IFRAME" -  DOES IT PASS THE VALIDATOR ?-->
-                         <iframe class="map-container-inmodal map-iframe" 
-					         	 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9944.945394327659!2d-2.600520555281349!3d51.45381689530526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e7869341d07%3A0xff9dec147ff74e37!2sBristol%20city%20centre%2C%20Bristol%20BS1%204SS!5e0!3m2!1sen!2suk!4v1582056642984!5m2!1sen!2suk"
-							     ></iframe>
-                        
-                        <!-- FORMER -->
-                        <!-- <iframe class="map-container-inmodal" -->
-						<!-- src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bristol+(Bristol%20Central%20Gym)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"></iframe> -->
-
-
-
-Technologys used will include:
+#### Technology’s used will include:
 HTML5, CSS3, Bootstrap, Gitpod, Sublime text and Balsamiq Mockup 3.
 
 Deployment: The site will be deployed by 
 https://pages.github.com/
 
-Credits:
-The text from this site was obtained from
-
+#### Credits:
 
 Media: The Photos used in this site were obtained from
 
@@ -136,16 +113,11 @@ Photo by Alora Griffiths on Unsplash
 
 https://www.pexels.com/
 "Class" Image Photo by bruce mars from Pexels.
-Video Clips by unnamed from pexels.
+
 
 https://pixabay.com/
-"trainer" Image by ID 5132824 Pixabay
+"trainer" Image by ID 5132824
 "Timetables" Image by karabulakastan
-
-https://pxhere.com/
-"shoes" Image by unknone camera 
-
-
 
 Media: The moving text and buttons used in this site were obtained from
 
@@ -155,8 +127,9 @@ Moving Text.
 https://webdeasy.de/en/top-css-buttons-en/
 David Conner #21 Collection of Button Hover Effects
 
-Acknowledgments:
-I recieved inspitartion for this project from;
-Elen Davies(Personal Trainer & Quality Assurance Specialiset).
+#### Acknowledgments:
+I received inspiration for this project from;
+
+Elen Davies(Personal Trainer).
 
 
