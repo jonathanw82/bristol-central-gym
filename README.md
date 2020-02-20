@@ -12,13 +12,13 @@ An informative website for city centre gym based in heart of Bristol. Website fe
 The information is clearly separated in to relevant sections to make the site easier to navigate for both existing members and potential new sign ups.
 
 
-The Business Goals of this site are:
+#### The Business Goals of this site are:
 * Put the brand in the forefront of people’s minds.
 * Increase membership by smooth and linear access to signup forms.
 * Striking UX to keep potential clients interested.
 * Easy access to timetable information.
 
-The customer goals of this website are:
+#### The customer goals of this website are:
 * Searching for a welcoming gym environment to help them meet their fitness goals.
 * Clear information on the equipment, services and membership options available.
 * Easy signup process. 
