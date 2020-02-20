@@ -95,10 +95,10 @@ The Find us page is a pop-up box, clearly showing the address and a Google map o
 The sign up page has a clear sign up form (middle) with clearly defined inputs consisting of a drop down menu that lists the membership types and prices above text input fields with first name, last name, email, phone and password, followed by two check boxes with reference to terms and conditions and marketing data. The bottom of the form has a signup button.
 
 
-#### Technology’s used will include:
+### Technology’s used will include:
 HTML5, CSS3, Bootstrap, Gitpod, Sublime text and Balsamiq Mockup 3.
 
-#### Deployment:
+### Deployment:
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 Log into GitHub.
@@ -125,10 +125,10 @@ Further reading and troubleshooting on cloning a repository from GitHub here.
 Deployment: The site will be deployed by 
 https://pages.github.com/
 
-#### Testing:
+### Testing:
 
 
-#### Credits:
+### Credits:
 
 ##### Media:
 The Photos used in this site were obtained from
