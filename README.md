@@ -128,28 +128,28 @@ https://pages.github.com/
 
 The Website has been tested by the author and others and is working as intended the test carried out were as follow’s:
 
-####Browsers tested 
+#### Browsers tested 
 Edge , Firefox,  Opera, Chrome.
 
-####Maps 
+#### Maps 
 Clickable and link to Google tested and working.
 
-####Home page:
+#### Home page:
 All call to action buttons tested and working.
 All navigation links tested and working,
 All social media links tested and working.
 All active links with hover function tested and working.
 
-####Timetables page:
+#### Timetables page:
 All call to action buttons tested and working.
 All navigation links tested and working,
 All social media links tested and working.
 All active links with hover function tested and working.
 
-####Find Us:
+#### Find Us:
 Link to Modal tested and working.
 
-####Signup:
+#### Signup:
 All navigation links tested and working,
 All social media links tested and working.
 All active links with hover function tested and working.
