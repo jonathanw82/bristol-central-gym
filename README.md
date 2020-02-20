@@ -8,32 +8,34 @@
 </div>
 
 An informative website for city centre gym based in heart of Bristol. Website features an inspirational slideshow of photos, product information, timetables and a signup page. The goal for this website is to give potential customers the information they need to decide whether or not this gym is for them and to drive membership sign ups.
+
 The information is clearly separated in to relevant sections to make the site easier to navigate for both existing members and potential new sign ups.
 
 
 The Business Goals of this site are:
-* Put the brand in the forefront of peoples minds.
-* Increase membership by smooth and linear acess to signup forms.
+* Put the brand in the forefront of people’s minds.
+* Increase membership by smooth and linear access to signup forms.
 * Striking UX to keep potential clients interested.
-* Easy acess to timetable infomation.
+* Easy access to timetable information.
 
 The customer goals of this website are:
-* Easy to find location.
-* Individuals or familys looking for clear information on services we provide.
-* Easy signup process.
+* Searching for a welcoming gym environment to help them meet their fitness goals.
+* Clear information on the equipment, services and membership options available.
+* Easy signup process. 
+
 
 ## UX:
 
-#### Cliant Potential
+#### Client Potential
 * Motivated by health, fitness and wellbeing.
 * Has disposable income.
-* Lives in bristol area.
+* Lives in Bristol area.
+
 
 #### Visitors to this website are searching for:
-* Clear and obtainable infomation to help them reach ther fitness potential.
-* Quality of machinery on offer.
+* Well-equipped gym.
 * Classes and times to suit them.
-
+* Membership prices.
 
 ##### This Website is the best way to help them achieve these things because:
 * Other websites are too cluttered and hard to navigate.
