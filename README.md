@@ -94,7 +94,6 @@ The Find us page is a pop-up box, clearly showing the address and a Google map o
 #### Signup
 The sign up page has a clear sign up form (middle) with clearly defined inputs consisting of a drop down menu that lists the membership types and prices above text input fields with first name, last name, email, phone and password, followed by two check boxes with reference to terms and conditions and marketing data. The bottom of the form has a signup button.
 
-
 ### Technology’s used will include:
 HTML5, CSS3, Bootstrap, Gitpod, Sublime text and Balsamiq Mockup 3.
 
@@ -127,6 +126,39 @@ https://pages.github.com/
 
 ### Testing:
 
+The Website has been tested by the author and others and is working as intended the test carried out were as follow’s:
+
+####Browsers tested 
+Edge , Firefox,  Opera, Chrome.
+
+####Maps 
+Clickable and link to Google tested and working.
+
+####Home page:
+All call to action buttons tested and working.
+All navigation links tested and working,
+All social media links tested and working.
+All active links with hover function tested and working.
+
+####Timetables page:
+All call to action buttons tested and working.
+All navigation links tested and working,
+All social media links tested and working.
+All active links with hover function tested and working.
+
+####Find Us:
+Link to Modal tested and working.
+
+####Signup:
+All navigation links tested and working,
+All social media links tested and working.
+All active links with hover function tested and working.
+All text fields tested and working.
+All email fields tested and working.
+All password fields tested and working.
+All click icons tested and working.
+Signup button to call a thank you modal tested and working. 
+
 
 ### Credits:
 
@@ -152,8 +184,9 @@ Moving Text.
 https://webdeasy.de/en/top-css-buttons-en/
 David Conner #21 Collection of Button Hover Effects
 
-#### Content of Readme,
-Deployment Section only
+#### Content,
+
+Deployment Section Written by 
 AJGreaves
 https://ajgreaves.github.io/portrait-artist/
 
