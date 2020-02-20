@@ -76,7 +76,7 @@ Each page has a footer that features:
 * The footer has two changing states Mobile and desktop. On desktop the address is located on the left and the membership offer and call to action button is centre, on mobile the address is stacked below the offer, allowing the user clear access to the signup call to action button.
 
 
-##### Home
+#### Home
 The Home page is made up of a hero image carousel with branding overlay on desktop view and hero carousel with branding below on mobile view. 
 
 This is followed by membership options and pricing, leading to information about the gym, classes and personal trainers - all with their separate images.
@@ -85,13 +85,13 @@ The classes section has a call to action button that takes the user to the timet
 There is another call to action button centre page just above the footer that will pop up a map of the gyms location.
 
 
-##### Timetables
+#### Timetables
 The Timetables page is made up of an eye catching background with a stack of call to action buttons (left-hand side) that are clearly named with classes available. On pressing the buttons, a pop-up widow will appear with clearly defined times and days that the classes are available.
 
-##### Find Us
+#### Find Us
 The Find us page is a pop-up box, clearly showing the address and a Google map of the location with a close button (bottom right).
 
-##### Signup
+#### Signup
 The sign up page has a clear sign up form (middle) with clearly defined inputs consisting of a drop down menu that lists the membership types and prices above text input fields with first name, last name, email, phone and password, followed by two check boxes with reference to terms and conditions and marketing data. The bottom of the form has a signup button.
 
 
