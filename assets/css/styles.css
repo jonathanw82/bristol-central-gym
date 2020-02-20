@@ -169,6 +169,18 @@ body{
     margin-bottom: 30px;
 }
 
+.gym-only-membership p{
+    font-size: 1.3rem;
+}
+
+.gym-classes-membership p{
+    font-size: 1.3rem;
+}
+
+.gym-classes-swim-membership p{
+    font-size: 1.3rem;
+}
+
 .about-the-gym{
     text-align: center;
 }
@@ -240,7 +252,7 @@ body{
 .gym-info{
     position: relative;
     padding: 130px 90px 90px 90px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .gym-info h4{
@@ -258,13 +270,13 @@ body{
 .classes-info{
     position: relative;
     padding: 115px 90px 90px 90px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .trainers-info{
     position: relative;
     padding: 125px 90px 90px 90px; 
-    font-size: 1rem;
+    font-size: 1.1rem;
 }  
 
 .class-info-link{
