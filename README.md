@@ -98,12 +98,40 @@ The sign up page has a clear sign up form (middle) with clearly defined inputs c
 #### Technology’s used will include:
 HTML5, CSS3, Bootstrap, Gitpod, Sublime text and Balsamiq Mockup 3.
 
+#### Deployment:
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+Log into GitHub.
+From the list of repositories on the screen, select bristol-central-gym.
+From the menu items near the top of the page, select Settings.
+Scroll down to the GitHub Pages section.
+Under Source click the drop-down menu labelled None and select Master Branch
+On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+How to run this project locally
+To clone this project from GitHub:
+
+Follow this link to the Project GitHub repository.
+Under the repository name, click "Clone or download".
+In the Clone with HTTPs section, copy the clone URL for the repository.
+In your local IDE open Git Bash.
+Change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you copied in Step 3.
+git clone https://github.com/USERNAME/REPOSITORY
+Press Enter. Your local clone will be created.
+Further reading and troubleshooting on cloning a repository from GitHub here.
+
 Deployment: The site will be deployed by 
 https://pages.github.com/
 
+#### Testing:
+
+
 #### Credits:
 
-Media: The Photos used in this site were obtained from
+##### Media:
+The Photos used in this site were obtained from
 
 https://pxhere.com/
 https://unsplash.com/
@@ -114,18 +142,20 @@ Photo by Alora Griffiths on Unsplash
 https://www.pexels.com/
 "Class" Image Photo by bruce mars from Pexels.
 
-
 https://pixabay.com/
 "trainer" Image by ID 5132824
 "Timetables" Image by karabulakastan
-
-Media: The moving text and buttons used in this site were obtained from
 
 https://tobiasahlin.com/moving-letters/#4
 Moving Text.
 
 https://webdeasy.de/en/top-css-buttons-en/
 David Conner #21 Collection of Button Hover Effects
+
+#### Content of Readme,
+Deployment Section only
+AJGreaves
+https://ajgreaves.github.io/portrait-artist/
 
 #### Acknowledgments:
 I received inspiration for this project from;
