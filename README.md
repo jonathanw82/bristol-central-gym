@@ -165,6 +165,7 @@ Signup button to call a thank you modal tested and working.
 The Photos used in this site were obtained from
 
 https://unsplash.com/
+
 "GYM" Image Photo by Danielle Cerullo on Unsplash
 
 Photo by Alora Griffiths on Unsplash
