@@ -45,8 +45,7 @@ The information is clearly separated in to relevant sections to make the site ea
 
 #### This website is:
 * Uncluttered and has an intuitive navigation process.
-* Providing clear information on the membership packages available and other 
-* services.
+* Providing clear information on the membership packages available and other services.
 * Leading the customer to the membership sign up page to drive sales.
 
     
@@ -109,7 +108,7 @@ On selecting Master Branch the page is automatically refreshed, the website is n
 Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 How to run this project locally
-To clone this project from GitHub:
+to clone this project from GitHub:
 
 Follow this link to the Project GitHub repository.
 Under the repository name, click "Clone or download".
@@ -126,7 +125,7 @@ https://pages.github.com/
 
 ### Testing:
 
-The Website has been tested by the author and others and is working as intended the test carried out were as follow’s:
+The Website has been tested by the author and others and is working as intended the tests carried out were as follows:
 
 #### Browsers tested 
 Edge , Firefox,  Opera, Chrome.
@@ -136,13 +135,13 @@ Clickable and link to Google tested and working.
 
 #### Home page:
 All call to action buttons tested and working.
-All navigation links tested and working,
+All navigation links tested and working.
 All social media links tested and working.
 All active links with hover function tested and working.
 
 #### Timetables page:
 All call to action buttons tested and working.
-All navigation links tested and working,
+All navigation links tested and working.
 All social media links tested and working.
 All active links with hover function tested and working.
 
@@ -150,7 +149,7 @@ All active links with hover function tested and working.
 Link to Modal tested and working.
 
 #### Signup:
-All navigation links tested and working,
+All navigation links tested and working.
 All social media links tested and working.
 All active links with hover function tested and working.
 All text fields tested and working.
