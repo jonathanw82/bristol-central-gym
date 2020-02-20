@@ -38,12 +38,12 @@ The information is clearly separated in to relevant sections to make the site ea
 * Membership prices.
 
 
-##### This Website is the best way to help them achieve these things because:
+#### This Website is the best way to help them achieve these things because:
 * Other websites are too cluttered and hard to navigate.
 * Other websites fail to have sufficient information on equipment.
 
 
-##### This website is:
+#### This website is:
 * Uncluttered and has an intuitive navigation process.
 * Providing clear information on the membership packages available and other 
 * services.
@@ -52,19 +52,19 @@ The information is clearly separated in to relevant sections to make the site ea
     
     
 ## WireFrame Mockups:
-##### Desktop View
+#### Desktop View
 - [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Home-DTV.png)
 - [Facilities](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Facilities-DTV.png)
 - [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Timetables-DTV.png)
 - [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Signup-DTV.png)
 
-##### Mobile View
+#### Mobile View
 - [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Home-MV.png)
 - [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Timetable-MV.png)
 - [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/WireFrame/Signup-MV.png)
 
 ## Features:
-Each page features a navigation bar with responsive features. 
+Each page features a **navigation bar** with responsive features. 
 
 * The branding logo (top left) will take the user back to the home page if pressed from any page. 
 * To the right, there are four navigation words - Home, Timetables, Find Us and Sign Up - all of which take you to their respective linked pages.
