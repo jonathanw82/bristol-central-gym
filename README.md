@@ -164,23 +164,29 @@ Signup button to call a thank you modal tested and working.
 ##### Media:
 The Photos used in this site were obtained from
 
-https://pxhere.com/
 https://unsplash.com/
 "GYM" Image Photo by Danielle Cerullo on Unsplash
+
 Photo by Alora Griffiths on Unsplash
+
 "Readme" Image by Meghan Holmes on Unsplash 
 
 https://www.pexels.com/
+
 "Class" Image Photo by bruce mars from Pexels.
 
 https://pixabay.com/
+
 "trainer" Image by ID 5132824
+
 "Timetables" Image by karabulakastan
 
 https://tobiasahlin.com/moving-letters/#4
+
 Moving Text.
 
 https://webdeasy.de/en/top-css-buttons-en/
+
 David Conner #21 Collection of Button Hover Effects
 
 #### Content,
