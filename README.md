@@ -61,7 +61,7 @@ The information is clearly separated in to relevant sections to make the site ea
 #### Mobile View
 - [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/Home-MV.png).
 - [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/Timetable-MV.png).
-- [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/Signup-MV.png).
+- [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/signup-MV.png).
 
 ## Features:
 Each page features a **navigation bar** with responsive features. 
