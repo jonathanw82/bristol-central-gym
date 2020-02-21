@@ -205,7 +205,7 @@ body{
 }
 
 .gym-kit-image{
-    background-image: url("../images/GYM.jpg");
+    background-image: url("../images/gym.jpg");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,7 +229,7 @@ body{
 }
 
 .studio-classes-image{
-    background-image: url("../images/Classes.jpg");
+    background-image: url("../images/classes.jpg");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -819,7 +819,7 @@ body{
 }
 
 .classes-info{
-      padding: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
 }
 
 .trainers-info{
