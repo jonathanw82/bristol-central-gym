@@ -63,12 +63,12 @@ The information is clearly separated in to relevant sections to make the site ea
 - [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/signup-MV.png).
 
 #### Screenshots:
-- [Home]
-- [Timetables]
-- [FindUs]
-- [SignUp]
-- [Mobile]
-- [Tablet]
+- [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/screenshots/desktop/home-screen-shot.jpg).
+- [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/screenshots/desktop/timetables-screen-shot.jpg).
+- [FindUs](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/screenshots/desktop/findus-screen-shot.jpg).
+- [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/screenshots/desktop/signup-screen-shot.jpg).
+- [Mobile](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/screenshots/mobile/mobile-screen-shot.jpg).
+- [Tablet](https://github.com/jonathanw82/bristol-central-gym/blob/master/assets/images/screenshots/mobile/tablet-view.jpg).
 
 
 
