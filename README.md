@@ -50,7 +50,7 @@ The information is clearly separated in to relevant sections to make the site ea
 
     
     
-## WireFrame Mockups:
+## WireFrame Mockups & Screenshots:
 #### Desktop View
 - [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/Home-DTV.png).
 - [Facilities](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/Facilities-DTV.png).
@@ -61,6 +61,16 @@ The information is clearly separated in to relevant sections to make the site ea
 - [Home](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/Home-MV.png).
 - [Timetables](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/Timetable-MV.png).
 - [SignUp](https://github.com/jonathanw82/bristol-central-gym/blob/master/wireframes/signup-MV.png).
+
+#### Screenshots:
+- [Home]
+- [Timetables]
+- [FindUs]
+- [SignUp]
+- [Mobile]
+- [Tablet]
+
+
 
 ## Features:
 Each page features a **navigation bar** with responsive features. 
