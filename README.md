@@ -4,7 +4,7 @@
 
 <div align="center">
     
-[View Bristol Central Gym in GitHub Pages](https://github.com/jonathanw82/bristol-central-gym)
+Click image for liver version
 </div>
 
 An informative website for a city center gym based in heart of Bristol Uk. Website features an inspirational slideshow of photos, product information, timetables and a signup page. The goal for this website is to give potential customers the information they need to decide whether or not this gym is for them and to drive membership sign ups.
